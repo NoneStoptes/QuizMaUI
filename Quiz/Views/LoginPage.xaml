@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Quiz.ViewModels"
+             x:Class="Quiz.Views.LoginPage">
+    <ContentPage.BindingContext>
+        <!-- Указываем ViewModel для страницы -->
+        <vm:LoginPageViewModel />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Padding="20">
+        <!-- Заголовок страницы -->
+        <Label Text="Login"
+               FontSize="26"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,20,0,10" />
+
+        <!-- Поле ввода email, привязка к ViewModell -->
+        <Entry Placeholder="Enter your email address" 
+               Text="{Binding Email}"  
+               x:Name="EmailEntry"
+               Margin="0,10" />
+
+        <!-- Поле ввода пароля, привязка к ViewModel -->
+        <Entry Placeholder="Enter your password"
+               IsPassword="True"
+               Text="{Binding Password}"
+               x:Name="PasswordEntry"
+               Margin="0,10" />
+
+        <!-- Кнопка входа -->
+        <Button Text="Login" 
+                BackgroundColor="Blue"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Margin="0,20"
+                Clicked="OnLoginClicked" />
+
+        <!-- Кнопка возрата на регистрацию -->
+        <Label HorizontalOptions="Center" VerticalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="
+                          ? " TextColor="White" />
+                    <Span Text="Regiser now!" TextColor="Blue" TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnRegisterTapped" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,1 @@
+D:\MaximShalman2025\Quiz\Quiz\Quiz.csproj;x64

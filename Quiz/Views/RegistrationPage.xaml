@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Quiz.Views.RegistrationPage"
+             xmlns:vm="clr-namespace:Quiz.ViewModels"
+             xmlns:conv="clr-namespace:Quiz.Converters" >
+    <!-- Привязываем контекст данных к ViewModel -->
+    <ContentPage.BindingContext>
+        <vm:RegistrationPageViewModel />
+    </ContentPage.BindingContext>
+
+    <!-- Объявляем ресурс для конвертера -->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:BoolToColorConverter x:Key="BoolToColorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <VerticalStackLayout>
+        <!-- Внутренний контейнер -->
+        <VerticalStackLayout Padding="20">
+            <!-- Заголовок страницы -->
+            <Label Text="Register"
+                   FontSize="26"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,10" />
+
+            <!-- Поле ввода имени, привязка к ViewModel -->
+            <Entry Placeholder="Enter your name" 
+                   Text="{Binding Name}"
+                   BackgroundColor="{Binding IsUserNameValid, Converter={StaticResource BoolenToBluRed}}"
+                   Margin="0,10" />
+
+            <!-- Поле ввода nickname, привязка к ViewModel -->
+            <Entry Placeholder="Enter your nickname" 
+                   Text="{Binding Nickname}"
+                   BackgroundColor="{Binding IsNicknameValid, Converter={StaticResource BoolToColorConverter}}"
+                   Margin="0,10" />
+
+            <!-- Поле ввода электронной почты, привязка к ViewModel -->
+            <Entry Placeholder="Enter your email address" 
+                   Text="{Binding Email}"
+                   Margin="0,10" />
+
+            <!-- Поле ввода пароля, привязка к ViewModel -->
+            <Entry Placeholder="Enter your password" 
+                   Text="{Binding Password}"
+                   IsPassword="True"
+                   BackgroundColor="{Binding IsPasswordValid, Converter={StaticResource BoolToColorConverter}}"
+                   Margin="0,10" />
+
+            <!-- Подсказка для пароля -->
+            <Label Text="Password must contain at least 8 characters, 1 letter, and 1 number."
+                   FontSize="12"
+                   TextColor="Gray"
+                   HorizontalOptions="Start"
+                   Margin="0,0,0,10" />
+
+            <!-- Поле для подтверждения пароля -->
+            <Entry Placeholder="Confirm your password" 
+                   Text="{Binding ConfirmPassword}"
+                   IsPassword="True"
+                   BackgroundColor="{Binding IsPasswordConfirmed, Converter={StaticResource BoolToColorConverter}}"
+                   Margin="0,10" />
+
+            <!-- Подсказка для подтверждения пароля -->
+            <Label Text="Please re-enter your password to confirm."
+                   FontSize="12"
+                   TextColor="Gray"
+                   HorizontalOptions="Start"
+                   Margin="0,0,0,10" />
+
+            <!-- Кнопка регистрации -->
+            <Button Text="Register" 
+                    IsEnabled="{Binding IsFormValid}" 
+                    BackgroundColor="Blue" 
+                    TextColor="White" 
+                    HorizontalOptions="Center" 
+                    Margin="0,20" 
+                    Clicked="OnRegisterClicked" />
+
+            <!-- Кнопка возврата на логин -->
+            <Label HorizontalOptions="Center" VerticalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Have an account? " TextColor="White" />
+                        <Span Text="Login now!" TextColor="Blue" TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnLoginTapped" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

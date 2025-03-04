@@ -1,0 +1,467 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MaximShalman2025\\Quiz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\services\\localdataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\localdataservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\models\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\models\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\quiz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\quiz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MaximShalman2025\\Quiz\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\viewmodels\\boolentoblured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\boolentoblured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\viewmodels\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\viewmodels\\radiobuttonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\radiobuttonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\viewmodels\\registrationpageviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\registrationpageviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|d:\\maximshalman2025\\quiz\\quiz\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocalDataServices.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Services\\LocalDataServices.cs",
+              "RelativeDocumentMoniker": "Quiz\\Services\\LocalDataServices.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Services\\LocalDataServices.cs*",
+              "RelativeToolTip": "Quiz\\Services\\LocalDataServices.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:17:10.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FirebaseServices.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Services\\FirebaseServices.cs",
+              "RelativeDocumentMoniker": "Quiz\\Services\\FirebaseServices.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Services\\FirebaseServices.cs",
+              "RelativeToolTip": "Quiz\\Services\\FirebaseServices.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowK0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:16:06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppService.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Services\\AppService.cs",
+              "RelativeDocumentMoniker": "Quiz\\Services\\AppService.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Services\\AppService.cs*",
+              "RelativeToolTip": "Quiz\\Services\\AppService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:15:23.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Models\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "Quiz\\Models\\QuizQuestion.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Models\\QuizQuestion.cs",
+              "RelativeToolTip": "Quiz\\Models\\QuizQuestion.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:09:06.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwEoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:07:48.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BoolToColorConverter.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\BoolToColorConverter.cs",
+              "RelativeDocumentMoniker": "Quiz\\ViewModels\\BoolToColorConverter.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\BoolToColorConverter.cs",
+              "RelativeToolTip": "Quiz\\ViewModels\\BoolToColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:37:02.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BoolenToBluRed.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\BoolenToBluRed.cs",
+              "RelativeDocumentMoniker": "Quiz\\ViewModels\\BoolenToBluRed.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\BoolenToBluRed.cs",
+              "RelativeToolTip": "Quiz\\ViewModels\\BoolenToBluRed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:37:05.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Quiz\\Views\\LoginPage.xaml",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Quiz\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwCsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T07:33:05.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Quiz.csproj",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Quiz.csproj",
+              "RelativeDocumentMoniker": "Quiz\\Quiz.csproj",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Quiz.csproj*",
+              "RelativeToolTip": "Quiz\\Quiz.csproj*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-18T08:31:26.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Quiz\\Views\\RegistrationPage.xaml.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "Quiz\\Views\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:34:26.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Quiz\\Views\\HomePage.xaml",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\HomePage.xaml",
+              "RelativeToolTip": "Quiz\\Views\\HomePage.xaml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswGEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T07:31:31.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAFoCAAAAAAAAAAASwG8CAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-18T08:31:59.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "Quiz\\ViewModels\\HomePageViewModel.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\HomePageViewModel.cs",
+              "RelativeToolTip": "Quiz\\ViewModels\\HomePageViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:37:00.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Quiz\\Views\\HomePage.xaml.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "Quiz\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:32:37.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "Quiz\\Views\\RegistrationPage.xaml",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\RegistrationPage.xaml",
+              "RelativeToolTip": "Quiz\\Views\\RegistrationPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T07:33:59.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RadioButtonConverter.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\RadioButtonConverter.cs",
+              "RelativeDocumentMoniker": "Quiz\\ViewModels\\RadioButtonConverter.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\RadioButtonConverter.cs",
+              "RelativeToolTip": "Quiz\\ViewModels\\RadioButtonConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:32:15.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegistrationPageViewMode.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\RegistrationPageViewMode.cs",
+              "RelativeDocumentMoniker": "Quiz\\ViewModels\\RegistrationPageViewMode.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\RegistrationPageViewMode.cs",
+              "RelativeToolTip": "Quiz\\ViewModels\\RegistrationPageViewMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:36:51.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Quiz\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Quiz\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:33:23.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPageViewModel.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\LoginPageViewModel.cs",
+              "RelativeDocumentMoniker": "Quiz\\ViewModels\\LoginPageViewModel.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\ViewModels\\LoginPageViewModel.cs",
+              "RelativeToolTip": "Quiz\\ViewModels\\LoginPageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:36:57.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WelcomePage.xaml.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\WelcomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Quiz\\Views\\WelcomePage.xaml.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\WelcomePage.xaml.cs",
+              "RelativeToolTip": "Quiz\\Views\\WelcomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:34:57.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\App.xaml",
+              "RelativeDocumentMoniker": "Quiz\\App.xaml",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\App.xaml",
+              "RelativeToolTip": "Quiz\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T07:35:07.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Quiz\\AppShell.xaml",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\AppShell.xaml",
+              "RelativeToolTip": "Quiz\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T07:35:21.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Quiz\\App.xaml.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\App.xaml.cs",
+              "RelativeToolTip": "Quiz\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:35:47.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WelcomePage.xaml",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\WelcomePage.xaml",
+              "RelativeDocumentMoniker": "Quiz\\Views\\WelcomePage.xaml",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Views\\WelcomePage.xaml",
+              "RelativeToolTip": "Quiz\\Views\\WelcomePage.xaml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwC4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T07:34:45.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "88c3f47b-6677-44cb-b87f-c2dd41216ce9",
+        "Display": 0,
+        "X": 706,
+        "Y": 111,
+        "Width": 1553,
+        "Height": 825,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizCategory.cs",
+              "DocumentMoniker": "D:\\MaximShalman2025\\Quiz\\Quiz\\Models\\QuizCategory.cs",
+              "RelativeDocumentMoniker": "Quiz\\Models\\QuizCategory.cs",
+              "ToolTip": "D:\\MaximShalman2025\\Quiz\\Quiz\\Models\\QuizCategory.cs",
+              "RelativeToolTip": "Quiz\\Models\\QuizCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:08:34.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Quiz.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Quiz"
+    xmlns:views="clr-namespace:Quiz.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Quiz">
+
+    <ShellContent
+        Title="Welcome"
+        ContentTemplate="{DataTemplate views:WelcomePage}"
+        Route="WelcomePage" />
+
+</Shell>

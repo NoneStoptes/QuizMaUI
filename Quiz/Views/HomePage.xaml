@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Quiz.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:conv="clr-namespace:Quiz.Converters"
+    xmlns:vm="clr-namespace:Quiz.ViewModels">
+
+    <!-- Resources -->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:BoolenToBluRed x:Key="BoolenToBluRed" />
+            <conv:RadioButtonConverter x:Key="RadioButtonConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.BindingContext>
+        <vm:HomePageViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, *"
+              ColumnDefinitions="*, *, *, *"
+              ColumnSpacing="5"
+              RowSpacing="10"
+              Padding="10">
+
+            <!-- Заголовок -->
+            <StackLayout Grid.Row="0" Grid.ColumnSpan="4" Orientation="Horizontal" HorizontalOptions="Fill" VerticalOptions="Start">
+                <Label Text="Quiz" 
+                       FontSize="24" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="StartAndExpand" />
+            </StackLayout>
+
+            <!-- Приветствие -->
+            <Label 
+                Text="Welcome, User!" 
+                FontSize="20" 
+                FontAttributes="Bold" 
+                HorizontalOptions="Start" 
+                VerticalOptions="Center" 
+                Grid.Row="1" Grid.ColumnSpan="4" />
+
+            <!-- Поисковая строка -->
+            <Frame CornerRadius="10" BorderColor="DarkGray" BackgroundColor="#333333" Padding="5" Grid.Row="2" Grid.ColumnSpan="4" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="search_icon.png" 
+                           WidthRequest="20" 
+                           HeightRequest="20" 
+                           VerticalOptions="Center" />
+                    <Entry Placeholder="Theme of Quiz" 
+                           HorizontalOptions="FillAndExpand" 
+                           TextColor="White" 
+                           PlaceholderColor="Gray" 
+                           BackgroundColor="Transparent" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Радио-кнопки -->
+            <RadioButton Content="Very Easy"
+                         Value="Very Easy"
+                         GroupName="Difficulty"
+                         IsChecked="{Binding SelectedLevel, Converter={StaticResource RadioButtonConverter}, ConverterParameter=Very Easy}"
+                         Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" />
+            <RadioButton Content="Easy"
+                         Value="Easy"
+                         GroupName="Difficulty"
+                         IsChecked="{Binding SelectedLevel, Converter={StaticResource RadioButtonConverter}, ConverterParameter=Easy}"
+                         Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" />
+            <RadioButton Content="Medium"
+                         Value="Medium"
+                         GroupName="Difficulty"
+                         IsChecked="{Binding SelectedLevel, Converter={StaticResource RadioButtonConverter}, ConverterParameter=Medium}"
+                         Grid.Row="3" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
+            <RadioButton Content="Hard"
+                         Value="Hard"
+                         GroupName="Difficulty"
+                         IsChecked="{Binding SelectedLevel, Converter={StaticResource RadioButtonConverter}, ConverterParameter=Hard}"
+                         Grid.Row="3" Grid.Column="3" HorizontalOptions="Center" VerticalOptions="Center" />
+
+            <!-- Карточки -->
+            <CollectionView Grid.Row="4" Grid.ColumnSpan="4" ItemsSource="{Binding Cards}" IsVisible="{Binding AreCardsVisible}">
+                <CollectionView.ItemsLayout>
+                    <!-- Вертикальный список -->
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="10" CornerRadius="10" BorderColor="Gray" BackgroundColor="#444444"
+                   HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="5">
+                                <Image Source="{Binding Image}" WidthRequest="50" HeightRequest="50" />
+                                <Label Text="{Binding Title}" TextColor="White" FontSize="18" VerticalOptions="Center" />
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
