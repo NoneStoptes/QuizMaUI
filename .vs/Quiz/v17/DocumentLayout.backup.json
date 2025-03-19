@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -109,11 +109,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "App.g.i.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "RelativeDocumentMoniker": "Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
@@ -163,13 +163,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FirebaseServices.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\FirebaseServices.cs",
               "RelativeDocumentMoniker": "Quiz\\Services\\FirebaseServices.cs",
               "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\FirebaseServices.cs",
               "RelativeToolTip": "Quiz\\Services\\FirebaseServices.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T08:16:06Z",
               "EditorCaption": ""
@@ -335,13 +335,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml.cs*",
-              "RelativeToolTip": "Quiz\\Views\\LoginPage.xaml.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Quiz\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T07:33:23.957Z",
               "EditorCaption": ""

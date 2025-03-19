@@ -40,8 +40,7 @@
         <Label HorizontalOptions="Center" VerticalOptions="Center">
             <Label.FormattedText>
                 <FormattedString>
-                    <Span Text="
-                          ? " TextColor="White" />
+                    <Span Text="Don't have an account? " TextColor="White" />
                     <Span Text="Regiser now!" TextColor="Blue" TextDecorations="Underline">
                         <Span.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnRegisterTapped" />
