@@ -1,104 +1,104 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\",
+  "WorkspaceRootPath": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\models\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\models\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\quiz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\quiz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\viewmodels\\boolentoblured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\viewmodels\\registrationpageviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\registrationpageviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\models\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\models\\quizcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\quiz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\quiz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\viewmodels\\boolentoblured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\boolentoblured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\viewmodels\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\viewmodels\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\viewmodels\\radiobuttonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\viewmodels\\radiobuttonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\radiobuttonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\viewmodels\\registrationpageviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\registrationpageviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\desktop\\quizmaui\\quiz\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -109,96 +109,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 18,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAawEoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T20:25:01.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "QuizQuestion.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Models\\QuizQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Models\\QuizQuestion.cs",
               "RelativeDocumentMoniker": "Quiz\\Models\\QuizQuestion.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Models\\QuizQuestion.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Models\\QuizQuestion.cs",
               "RelativeToolTip": "Quiz\\Models\\QuizQuestion.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T00:35:13.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "QuizCategory.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Models\\QuizCategory.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Models\\QuizCategory.cs",
               "RelativeDocumentMoniker": "Quiz\\Models\\QuizCategory.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Models\\QuizCategory.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Models\\QuizCategory.cs",
               "RelativeToolTip": "Quiz\\Models\\QuizCategory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:35:05.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T00:35:05.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Models\\Person.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Models\\Person.cs",
               "RelativeDocumentMoniker": "Quiz\\Models\\Person.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Models\\Person.cs",
               "RelativeToolTip": "Quiz\\Models\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:35:01.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T00:35:01.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FirebaseServices.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Services\\FirebaseServices.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\FirebaseServices.cs",
               "RelativeDocumentMoniker": "Quiz\\Services\\FirebaseServices.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Services\\FirebaseServices.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\FirebaseServices.cs",
               "RelativeToolTip": "Quiz\\Services\\FirebaseServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwDUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T08:16:06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "AppService.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Services\\AppService.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\AppService.cs",
               "RelativeDocumentMoniker": "Quiz\\Services\\AppService.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Services\\AppService.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\AppService.cs",
               "RelativeToolTip": "Quiz\\Services\\AppService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T08:15:23.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T08:15:23.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeDocumentMoniker": "Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "RelativeToolTip": "Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAUwEoAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T09:07:48.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "BoolToColorConverter.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\BoolToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\BoolToColorConverter.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\BoolToColorConverter.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\BoolToColorConverter.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\BoolToColorConverter.cs",
               "RelativeToolTip": "Quiz\\ViewModels\\BoolToColorConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -206,11 +200,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "BoolenToBluRed.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\BoolenToBluRed.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\BoolenToBluRed.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\BoolenToBluRed.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\BoolenToBluRed.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\BoolenToBluRed.cs",
               "RelativeToolTip": "Quiz\\ViewModels\\BoolenToBluRed.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -218,24 +212,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Quiz\\Views\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml",
               "RelativeToolTip": "Quiz\\Views\\LoginPage.xaml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAewCQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-08T07:33:05.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Quiz.csproj",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Quiz.csproj",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Quiz.csproj",
               "RelativeDocumentMoniker": "Quiz\\Quiz.csproj",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Quiz.csproj",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Quiz.csproj",
               "RelativeToolTip": "Quiz\\Quiz.csproj",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -243,11 +237,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "RegistrationPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\Views\\RegistrationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml.cs",
               "RelativeToolTip": "Quiz\\Views\\RegistrationPage.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -256,36 +250,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\HomePage.xaml",
               "RelativeDocumentMoniker": "Quiz\\Views\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\HomePage.xaml",
               "RelativeToolTip": "Quiz\\Views\\HomePage.xaml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAFIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-08T07:31:31.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T07:31:31.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Microsoft.Maui.Resizetizer.After.targets",
               "DocumentMoniker": "C:\\Users\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "ToolTip": "C:\\Users\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeToolTip": "..\\..\\..\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "ViewState": "AgIAAFoCAAAAAAAAAAASwG8CAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2024-12-18T08:31:59.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "HomePageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\HomePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\HomePageViewModel.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\HomePageViewModel.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\HomePageViewModel.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\HomePageViewModel.cs",
               "RelativeToolTip": "Quiz\\ViewModels\\HomePageViewModel.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -293,11 +286,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\Views\\HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\HomePage.xaml.cs",
               "RelativeToolTip": "Quiz\\Views\\HomePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -305,24 +298,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "RegistrationPage.xaml",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml",
               "RelativeDocumentMoniker": "Quiz\\Views\\RegistrationPage.xaml",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml",
               "RelativeToolTip": "Quiz\\Views\\RegistrationPage.xaml",
               "ViewState": "AgIAADwAAAAAAAAAAAAewE8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-08T07:33:59.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T07:33:59.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "RadioButtonConverter.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\RadioButtonConverter.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\RadioButtonConverter.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\RadioButtonConverter.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\RadioButtonConverter.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\RadioButtonConverter.cs",
               "RelativeToolTip": "Quiz\\ViewModels\\RadioButtonConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -330,48 +322,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "RegistrationPageViewMode.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\RegistrationPageViewMode.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\RegistrationPageViewMode.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\RegistrationPageViewMode.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\RegistrationPageViewMode.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\RegistrationPageViewMode.cs",
               "RelativeToolTip": "Quiz\\ViewModels\\RegistrationPageViewMode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T07:36:51.42Z"
+              "WhenOpened": "2024-12-08T07:36:51.42Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "Quiz\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAMwCYAAAAGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml.cs*",
+              "RelativeToolTip": "Quiz\\Views\\LoginPage.xaml.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T07:33:23.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 4,
               "Title": "LoginPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\LoginPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\LoginPageViewModel.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\LoginPageViewModel.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\ViewModels\\LoginPageViewModel.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\LoginPageViewModel.cs",
               "RelativeToolTip": "Quiz\\ViewModels\\LoginPageViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T07:36:57.76Z"
+              "WhenOpened": "2024-12-08T07:36:57.76Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "WelcomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\Views\\WelcomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml.cs",
               "RelativeToolTip": "Quiz\\Views\\WelcomePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -381,9 +375,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\App.xaml",
               "RelativeDocumentMoniker": "Quiz\\App.xaml",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\App.xaml",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\App.xaml",
               "RelativeToolTip": "Quiz\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -393,9 +387,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\AppShell.xaml",
               "RelativeDocumentMoniker": "Quiz\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\AppShell.xaml",
               "RelativeToolTip": "Quiz\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -405,9 +399,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\App.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\App.xaml.cs",
               "RelativeToolTip": "Quiz\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -415,16 +409,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "WelcomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml",
               "RelativeDocumentMoniker": "Quiz\\Views\\WelcomePage.xaml",
-              "ToolTip": "C:\\Users\\malv1\\Desktop\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml",
+              "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml",
               "RelativeToolTip": "Quiz\\Views\\WelcomePage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-08T07:34:45.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T07:34:45.172Z"
             }
           ]
         }

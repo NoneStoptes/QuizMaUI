@@ -1,5 +1,8 @@
-using Microsoft.Maui.Controls;
+﻿using Microsoft.Maui.Controls;
 using Quiz.Models;
+using Quiz.Services;
+using Quiz.ViewModels;
+using System;
 
 namespace Quiz.Views;
 
@@ -8,37 +11,30 @@ public partial class LoginPage : ContentPage
     public LoginPage()
     {
         InitializeComponent();
+        BindingContext = new LoginPageViewModel();
     }
 
-    // ?????????? ?????? "Login"
-    /*
     private async void OnLoginClicked(object sender, EventArgs e)
     {
-        // ???????? ???????? ViewModel
-        var viewModel = BindingContext as ViewModels.LoginPageViewModel;
+        var viewModel = BindingContext as LoginPageViewModel;
 
         if (viewModel != null)
         {
-            // ????????? ???????????? ?? email ? ??????
-            var person = UserStore.ValidateUser(viewModel.Email, viewModel.Password);
+            FirebaseServices.Init();
+            var person = await FirebaseServices.AuthenticateUserAsync(viewModel.Email, viewModel.Password);
 
             if (person != null)
             {
-                // ???????? ????
-                DisplayAlert("Login", $"Welcome back, {person.Name}!", "OK");
+                await DisplayAlert("Login", $"Welcome back, {person.Name}!", "OK");
+                await Navigation.PushAsync(new HomePage()); // Переход на главную страницу
             }
             else
             {
-                // ??????: ???????? email ??? ??????
-                DisplayAlert("Error", "Invalid email or password", "OK");
+                await DisplayAlert("Error", "Invalid email or password", "OK");
             }
         }
-        // ????????? ?? ??????? ???????? -->
-        await Navigation.PushAsync(new HomePage());
     }
-    */
 
-    // ??????? ?? ???????? ???????????
     private async void OnRegisterTapped(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new RegistrationPage());

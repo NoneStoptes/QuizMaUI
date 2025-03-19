@@ -52,5 +52,39 @@ namespace Quiz.Services
                 throw new Exception("Error: " + ex.Message);
             }
         }
+
+        public static async Task<Person?> AuthenticateUserAsync(string email, string password)
+        {
+            try
+            {
+                // Проверка, инициализирован ли клиент Firebase
+                if (client == null)
+                {
+                    throw new Exception("Firebase client не инициализирован. Убедитесь, что вызван FirebaseServices.Init().");
+                }
+
+                var usersSnapshot = await client.Child("Person").OnceAsync<Person>();
+
+                // Проверка, получены ли данные
+                if (usersSnapshot == null)
+                {
+                    throw new Exception("Не удалось получить данные пользователей из Firebase.");
+                }
+
+                var user = usersSnapshot.Select(u => u.Object).FirstOrDefault(u => u.Email == email);
+
+                if (user != null && user.Password == password)
+                {
+                    return user;
+                }
+
+                return null; // Если пользователь не найден или пароль неверный
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ошибка при аутентификации: " + ex.Message);
+            }
+        }
+
     }
 }

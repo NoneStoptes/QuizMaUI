@@ -1,1 +1,1 @@
-C:\Users\malv1\Desktop\QuizMaUI\Quiz\Quiz.csproj;x64
+C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\Quiz.csproj;x64

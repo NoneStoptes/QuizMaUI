@@ -4,5 +4,50 @@
         <name>Quiz</name>
     </assembly>
     <members>
+        <member name="P:Quiz.Models.QuizCategory.MainTopic">
+            <summary>
+            Основная тема карточки (например, "Животные")
+            </summary>
+        </member>
+        <member name="P:Quiz.Models.QuizCategory.SubTopic">
+            <summary>
+            Подтема карточки (например, "Африканские животные")
+            </summary>
+        </member>
+        <member name="P:Quiz.Models.QuizCategory.Description">
+            <summary>
+            Описание темы
+            </summary>
+        </member>
+        <member name="P:Quiz.Models.QuizCategory.ImageUrl">
+            <summary>
+            Ссылка на изображение, загруженное в Firebase Storage
+            </summary>
+        </member>
+        <member name="P:Quiz.Models.QuizQuestion.Difficulty">
+            <summary>
+            Уровень сложности (только один из: VeryEasy, Easy, Normal, Hard)
+            </summary>
+        </member>
+        <member name="P:Quiz.Models.QuizQuestion.QuestionText">
+            <summary>
+            Сам вопрос викторины
+            </summary>
+        </member>
+        <member name="P:Quiz.Models.QuizQuestion.Option1">
+            <summary>
+            Варианты ответов
+            </summary>
+        </member>
+        <member name="P:Quiz.Models.QuizQuestion.CorrectAnswer">
+            <summary>
+            Правильный ответ (должен совпадать с одним из вариантов)
+            </summary>
+        </member>
+        <member name="P:Quiz.Models.QuizQuestion.CategoryId">
+            <summary>
+            Идентификатор категории, к которой относится вопрос
+            </summary>
+        </member>
     </members>
 </doc>
