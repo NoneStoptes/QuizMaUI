@@ -12,55 +12,55 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Quiz
-build_property.ProjectDir = D:\MaximShalman2025\Quiz\Quiz\
+build_property.ProjectDir = C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/MaximShalman2025/Quiz/Quiz/App.xaml]
+[C:/Users/malv1/Documents/GitHub/QuizMaUI/Quiz/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/MaximShalman2025/Quiz/Quiz/AppShell.xaml]
+[C:/Users/malv1/Documents/GitHub/QuizMaUI/Quiz/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/MaximShalman2025/Quiz/Quiz/Resources/Styles/Colors.xaml]
+[C:/Users/malv1/Documents/GitHub/QuizMaUI/Quiz/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/MaximShalman2025/Quiz/Quiz/Resources/Styles/Styles.xaml]
+[C:/Users/malv1/Documents/GitHub/QuizMaUI/Quiz/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/MaximShalman2025/Quiz/Quiz/Views/HomePage.xaml]
+[C:/Users/malv1/Documents/GitHub/QuizMaUI/Quiz/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
-[D:/MaximShalman2025/Quiz/Quiz/Views/LoginPage.xaml]
+[C:/Users/malv1/Documents/GitHub/QuizMaUI/Quiz/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-[D:/MaximShalman2025/Quiz/Quiz/Views/RegistrationPage.xaml]
+[C:/Users/malv1/Documents/GitHub/QuizMaUI/Quiz/Views/RegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Views.RegistrationPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RegistrationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\RegistrationPage.xaml
 
-[D:/MaximShalman2025/Quiz/Quiz/Views/WelcomePage.xaml]
+[C:/Users/malv1/Documents/GitHub/QuizMaUI/Quiz/Views/WelcomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quiz.Views.WelcomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\WelcomePage.xaml

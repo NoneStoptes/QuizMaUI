@@ -1,5 +1,6 @@
 using Microsoft.Maui.Controls;
 using Quiz.Models;
+using Quiz.Services;
 
 namespace Quiz.Views;
 
@@ -28,7 +29,8 @@ public partial class RegistrationPage : ContentPage
             };
 
             // ????????? ????????????
-            UserStore.AddUser(person);
+            FirebaseServices.Init();
+            FirebaseServices.AddUserAsync(person);
 
             // ???????? ?? ???????? ???????????
             await DisplayAlert("Registration", "You have been successfully registered!", "OK");

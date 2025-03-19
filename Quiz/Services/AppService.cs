@@ -7,13 +7,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Quiz.Models;
 
 namespace Quiz.Services
 {
     class AppService
     {
-        static public List<Category>? categories;
-        static public List<Item>? items;
+        static public List<QuizCategory>? categories;
+        static public List<QuizQuestion>? question;
+        static public List<Person>? persons;
 
         static FirebaseAuthClient auth;
         static FirebaseClient client;
@@ -26,8 +28,8 @@ namespace Quiz.Services
         {
             var config = new FirebaseAuthConfig()
             {
-                ApiKey = "AIzaSyA3_SJlgz_Ckt8DtDp2cYmT7WJ7txHS3Bg", //מפתח
-                AuthDomain = "mauiproject-aaa04.firebaseapp.com", //כתובת התחברות
+                ApiKey = "AIzaSyAWdxWnyNVuymfGKE2iCsKH-60cKDgBbqU", //מפתח
+                AuthDomain = "quiz-16042007.firebaseapp.com", //כתובת התחברות
                 Providers = new FirebaseAuthProvider[] //רשימת אפשריות להתחבר
               {
           new EmailProvider() //אנחנו נשתמש בשירות חינמי של התחברות עם מייל
@@ -37,13 +39,16 @@ namespace Quiz.Services
             auth = new FirebaseAuthClient(config); //ההתחברות
 
             client =
-              new FirebaseClient(@"https://mauiproject-aaa04-default-rtdb.europe-west1.firebasedatabase.app/", //כתובת מסד הנתונים
+              new FirebaseClient(@"https://console.firebase.google.com/u/0/project/quiz-16042007/database/quiz-16042007-default-rtdb/data/~2F", //כתובת מסד הנתונים
               new FirebaseOptions
               {
                   AuthTokenAsyncFactory = () => Task.FromResult(auth.User.Credential.IdToken)// מזהה ההתחברות של המשתמש עם השרת, הנתון נשמר במכשיר
               });
         }
 
+
+
+        /*
         public static async Task<bool> TryRegister(string userNameString, string passwordString)
         {
             try
@@ -210,5 +215,6 @@ namespace Quiz.Services
             public string? Description { get; set; }
             public List<String>? Categories { get; set; }
         }
+        */
     }
 }
