@@ -41,7 +41,7 @@
             <!-- Поле ввода электронной почты, привязка к ViewModel -->
             <Entry Placeholder="Enter your email address" 
                    Text="{Binding Email}"
-                   BackgroundColor="{Binding IsEmailValid, Converter={StaticResource BoolToColorConverter}}"
+                   BackgroundColor="{Binding IsEmailValid, Converter={StaticResource Test}}"
                    Margin="0,10" />
 
             <!-- Поле ввода пароля, привязка к ViewModel -->
