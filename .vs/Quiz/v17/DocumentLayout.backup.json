@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -100,6 +96,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|c:\\users\\malv1\\documents\\github\\quizmaui\\quiz\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55EEEEFF-2648-46A5-93B1-FF40B56D516B}|Quiz\\Quiz.csproj|solutionrelative:quiz\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\AppService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Quiz\\Services\\AppService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -109,11 +109,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.g.i.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "RelativeDocumentMoniker": "Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
@@ -121,12 +121,11 @@
               "RelativeToolTip": "Quiz\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAawEoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T20:25:01.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T20:25:01.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "QuizQuestion.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Models\\QuizQuestion.cs",
               "RelativeDocumentMoniker": "Quiz\\Models\\QuizQuestion.cs",
@@ -134,12 +133,11 @@
               "RelativeToolTip": "Quiz\\Models\\QuizQuestion.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:35:13.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T00:35:13.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "QuizCategory.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Models\\QuizCategory.cs",
               "RelativeDocumentMoniker": "Quiz\\Models\\QuizCategory.cs",
@@ -151,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Models\\Person.cs",
               "RelativeDocumentMoniker": "Quiz\\Models\\Person.cs",
@@ -163,20 +161,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FirebaseServices.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\FirebaseServices.cs",
               "RelativeDocumentMoniker": "Quiz\\Services\\FirebaseServices.cs",
               "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\FirebaseServices.cs",
               "RelativeToolTip": "Quiz\\Services\\FirebaseServices.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwv1MAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T08:16:06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "AppService.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Services\\AppService.cs",
               "RelativeDocumentMoniker": "Quiz\\Services\\AppService.cs",
@@ -188,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "BoolToColorConverter.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\BoolToColorConverter.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\BoolToColorConverter.cs",
@@ -200,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "BoolenToBluRed.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\BoolenToBluRed.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\BoolenToBluRed.cs",
@@ -212,20 +210,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Quiz\\Views\\LoginPage.xaml",
               "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml",
               "RelativeToolTip": "Quiz\\Views\\LoginPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-08T07:33:05.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Quiz.csproj",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Quiz.csproj",
               "RelativeDocumentMoniker": "Quiz\\Quiz.csproj",
@@ -237,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RegistrationPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\Views\\RegistrationPage.xaml.cs",
@@ -245,24 +243,24 @@
               "RelativeToolTip": "Quiz\\Views\\RegistrationPage.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T07:34:26.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T07:34:26.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\HomePage.xaml",
               "RelativeDocumentMoniker": "Quiz\\Views\\HomePage.xaml",
               "ToolTip": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\HomePage.xaml",
               "RelativeToolTip": "Quiz\\Views\\HomePage.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAFIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-08T07:31:31.659Z"
+              "WhenOpened": "2024-12-08T07:31:31.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Microsoft.Maui.Resizetizer.After.targets",
               "DocumentMoniker": "C:\\Users\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\tihonist\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.83\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
@@ -274,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "HomePageViewModel.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\HomePageViewModel.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\HomePageViewModel.cs",
@@ -286,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\Views\\HomePage.xaml.cs",
@@ -298,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RegistrationPage.xaml",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\RegistrationPage.xaml",
               "RelativeDocumentMoniker": "Quiz\\Views\\RegistrationPage.xaml",
@@ -310,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "RadioButtonConverter.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\RadioButtonConverter.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\RadioButtonConverter.cs",
@@ -322,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RegistrationPageViewMode.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\RegistrationPageViewMode.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\RegistrationPageViewMode.cs",
@@ -330,12 +328,11 @@
               "RelativeToolTip": "Quiz\\ViewModels\\RegistrationPageViewMode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T07:36:51.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T07:36:51.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\Views\\LoginPage.xaml.cs",
@@ -343,12 +340,11 @@
               "RelativeToolTip": "Quiz\\Views\\LoginPage.xaml.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T07:33:23.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T07:33:23.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginPageViewModel.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\ViewModels\\LoginPageViewModel.cs",
               "RelativeDocumentMoniker": "Quiz\\ViewModels\\LoginPageViewModel.cs",
@@ -356,12 +352,11 @@
               "RelativeToolTip": "Quiz\\ViewModels\\LoginPageViewModel.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T07:36:57.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T07:36:57.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "WelcomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\Views\\WelcomePage.xaml.cs",
@@ -373,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\App.xaml",
               "RelativeDocumentMoniker": "Quiz\\App.xaml",
@@ -385,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\AppShell.xaml",
               "RelativeDocumentMoniker": "Quiz\\AppShell.xaml",
@@ -397,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\App.xaml.cs",
               "RelativeDocumentMoniker": "Quiz\\App.xaml.cs",
@@ -409,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "WelcomePage.xaml",
               "DocumentMoniker": "C:\\Users\\malv1\\Documents\\GitHub\\QuizMaUI\\Quiz\\Views\\WelcomePage.xaml",
               "RelativeDocumentMoniker": "Quiz\\Views\\WelcomePage.xaml",

@@ -19,7 +19,7 @@ public partial class LoginPage : ContentPage
         var viewModel = BindingContext as LoginPageViewModel;
 
         if (viewModel != null)
-        {
+        { 
             FirebaseServices.Init();
             var person = await FirebaseServices.AuthenticateUserAsync(viewModel.Email, viewModel.Password);
 
