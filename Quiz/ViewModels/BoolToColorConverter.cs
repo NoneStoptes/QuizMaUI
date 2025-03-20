@@ -14,7 +14,7 @@ namespace Quiz.Converters
 
             if (value is bool isValid)
             {
-                return isValid ? Color.FromArgb("#71FE87") : Color.FromArgb("#FF7171"); // Зеленый, если true; красный, если false
+                return isValid ? Color.FromArgb("#1f6e40") : Color.FromArgb("#781f1f"); // Зеленый, если true; красный, если false
             }
 
             return Colors.Transparent;
