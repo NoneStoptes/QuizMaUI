@@ -20,6 +20,7 @@ namespace Quiz.ViewModels
         private bool? _isNicknameValid;
         private bool? _isPasswordValid;        
         private bool? _isPasswordConfirmed;
+        private bool? _isEmailValid;
 
         public string Name
         {
@@ -120,6 +121,32 @@ namespace Quiz.ViewModels
             }
         }
 
+        public bool? IsEmailValid
+        {
+            get => _isEmailValid;
+            set
+            {
+                if (_isEmailValid != value)
+                {
+                    _isEmailValid = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public string Email
+        {
+            get => _email;
+            set
+            {
+                _email = value;
+                OnPropertyChanged();
+                ValidateEmail();
+                ValidateForm();
+            }
+        }
+
+
         private void ValidateUserName()
         {
             if (string.IsNullOrWhiteSpace(Name))
@@ -181,22 +208,32 @@ namespace Quiz.ViewModels
             }
         }
 
-        public bool IsFormValid => (IsUserNameValid == true) && (IsNicknameValid == true) && (IsPasswordValid == true) && (IsPasswordConfirmed == true);
+        private void ValidateEmail()
+        {
+            if (string.IsNullOrWhiteSpace(Email))
+            {
+                IsEmailValid = null; // Поле не заполнено
+            }
+            else if (Regex.IsMatch(Email, @"^[\w\.-]+@([\w-]+\.)+[\w-]{2,4}$"))
+            {
+                IsEmailValid = true;
+            }
+            else
+            {
+                IsEmailValid = false;
+            }
+        }
+
+        public bool IsFormValid => (IsUserNameValid == true) &&
+                           (IsNicknameValid == true) &&
+                           (IsPasswordValid == true) &&
+                           (IsPasswordConfirmed == true) &&
+                           (IsEmailValid == true);
 
         private void ValidateForm()
         {
             // Проверка всей формы и вызов OnPropertyChanged для IsFormValid
             OnPropertyChanged(nameof(IsFormValid));
-        }
-
-        public string Email
-        {
-            get => _email;
-            set
-            {
-                _email = value;
-                OnPropertyChanged();
-            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

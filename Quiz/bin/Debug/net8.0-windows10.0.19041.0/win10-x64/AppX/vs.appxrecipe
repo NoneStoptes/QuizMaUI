@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-20T17:49:49.308</Modified>
+      <Modified>2025-03-20T17:57:42.133</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Quiz.dll">
       <PackagePath>Quiz.dll</PackagePath>
-      <Modified>2025-03-20T17:49:47.736</Modified>
+      <Modified>2025-03-20T17:57:41.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Quiz.exe</PackagePath>
-      <Modified>2025-03-20T17:49:47.753</Modified>
+      <Modified>2025-03-20T17:57:41.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
