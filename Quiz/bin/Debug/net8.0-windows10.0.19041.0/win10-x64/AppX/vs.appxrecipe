@@ -29,277 +29,277 @@
     <AppXManifest Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-19T20:36:09.610</Modified>
+      <Modified>2025-03-20T17:49:49.308</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-19T20:10:04.023</Modified>
+      <Modified>2025-03-20T17:49:49.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Quiz.runtimeconfig.json">
       <PackagePath>Quiz.runtimeconfig.json</PackagePath>
-      <Modified>2025-03-19T20:21:03.852</Modified>
+      <Modified>2025-03-20T17:49:48.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Quiz.dll">
       <PackagePath>Quiz.dll</PackagePath>
-      <Modified>2025-03-19T20:36:08.650</Modified>
+      <Modified>2025-03-20T17:49:47.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Quiz.exe</PackagePath>
-      <Modified>2025-03-19T20:36:08.697</Modified>
+      <Modified>2025-03-20T17:49:47.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-03-04T23:31:48.949</Modified>
+      <Modified>2025-03-20T17:47:31.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:01.524</Modified>
+      <Modified>2025-03-20T17:47:36.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-03-19T20:10:01.541</Modified>
+      <Modified>2025-03-20T17:47:36.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-03-19T20:10:01.557</Modified>
+      <Modified>2025-03-20T17:47:36.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-03-19T20:10:01.581</Modified>
+      <Modified>2025-03-20T17:47:36.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-03-19T20:10:01.679</Modified>
+      <Modified>2025-03-20T17:47:36.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-03-04T23:31:48.882</Modified>
+      <Modified>2025-03-20T17:47:36.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2025-03-04T23:31:48.884</Modified>
+      <Modified>2025-03-20T17:47:36.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-03-19T20:10:02.307</Modified>
+      <Modified>2025-03-20T17:47:36.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.298</Modified>
+      <Modified>2025-03-20T17:47:36.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.298</Modified>
+      <Modified>2025-03-20T17:47:36.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.298</Modified>
+      <Modified>2025-03-20T17:47:36.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.297</Modified>
+      <Modified>2025-03-20T17:47:36.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.297</Modified>
+      <Modified>2025-03-20T17:47:36.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.303</Modified>
+      <Modified>2025-03-20T17:47:36.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.303</Modified>
+      <Modified>2025-03-20T17:47:36.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.302</Modified>
+      <Modified>2025-03-20T17:47:36.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.303</Modified>
+      <Modified>2025-03-20T17:47:36.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.302</Modified>
+      <Modified>2025-03-20T17:47:36.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.304</Modified>
+      <Modified>2025-03-20T17:47:36.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.304</Modified>
+      <Modified>2025-03-20T17:47:36.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.303</Modified>
+      <Modified>2025-03-20T17:47:36.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.304</Modified>
+      <Modified>2025-03-20T17:47:36.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.304</Modified>
+      <Modified>2025-03-20T17:47:36.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.307</Modified>
+      <Modified>2025-03-20T17:47:36.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.307</Modified>
+      <Modified>2025-03-20T17:47:36.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.306</Modified>
+      <Modified>2025-03-20T17:47:36.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.306</Modified>
+      <Modified>2025-03-20T17:47:36.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.305</Modified>
+      <Modified>2025-03-20T17:47:36.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.305</Modified>
+      <Modified>2025-03-20T17:47:36.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.305</Modified>
+      <Modified>2025-03-20T17:47:36.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.304</Modified>
+      <Modified>2025-03-20T17:47:36.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.305</Modified>
+      <Modified>2025-03-20T17:47:36.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.305</Modified>
+      <Modified>2025-03-20T17:47:36.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.300</Modified>
+      <Modified>2025-03-20T17:47:36.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.300</Modified>
+      <Modified>2025-03-20T17:47:36.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.300</Modified>
+      <Modified>2025-03-20T17:47:36.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.299</Modified>
+      <Modified>2025-03-20T17:47:36.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.299</Modified>
+      <Modified>2025-03-20T17:47:36.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.301</Modified>
+      <Modified>2025-03-20T17:47:36.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.301</Modified>
+      <Modified>2025-03-20T17:47:36.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.301</Modified>
+      <Modified>2025-03-20T17:47:36.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.300</Modified>
+      <Modified>2025-03-20T17:47:36.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.300</Modified>
+      <Modified>2025-03-20T17:47:36.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.302</Modified>
+      <Modified>2025-03-20T17:47:36.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.302</Modified>
+      <Modified>2025-03-20T17:47:36.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.302</Modified>
+      <Modified>2025-03-20T17:47:36.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.302</Modified>
+      <Modified>2025-03-20T17:47:36.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.301</Modified>
+      <Modified>2025-03-20T17:47:36.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.299</Modified>
+      <Modified>2025-03-20T17:47:36.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.299</Modified>
+      <Modified>2025-03-20T17:47:36.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.299</Modified>
+      <Modified>2025-03-20T17:47:36.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.298</Modified>
+      <Modified>2025-03-20T17:47:36.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.298</Modified>
+      <Modified>2025-03-20T17:47:36.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cat.scale-100.png">
       <PackagePath>cat.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.296</Modified>
+      <Modified>2025-03-20T17:47:36.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png">
       <PackagePath>email.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.295</Modified>
+      <Modified>2025-03-20T17:47:36.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\football.scale-100.png">
       <PackagePath>football.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.295</Modified>
+      <Modified>2025-03-20T17:47:36.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\globe.scale-100.png">
       <PackagePath>globe.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.296</Modified>
+      <Modified>2025-03-20T17:47:36.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
       <PackagePath>logo.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.296</Modified>
+      <Modified>2025-03-20T17:47:36.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\salad.scale-100.png">
       <PackagePath>salad.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.296</Modified>
+      <Modified>2025-03-20T17:47:36.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search_icon.scale-100.png">
       <PackagePath>search_icon.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.296</Modified>
+      <Modified>2025-03-20T17:47:36.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\telegram.scale-100.png">
       <PackagePath>telegram.scale-100.png</PackagePath>
-      <Modified>2025-03-19T20:10:02.295</Modified>
+      <Modified>2025-03-20T17:47:36.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\Documents\GitHub\QuizMaUI\Quiz\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Quiz.deps.json">
       <PackagePath>Quiz.deps.json</PackagePath>
-      <Modified>2025-03-19T20:21:03.850</Modified>
+      <Modified>2025-03-20T17:49:48.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\malv1\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

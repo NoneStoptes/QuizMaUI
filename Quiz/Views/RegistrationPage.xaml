@@ -29,7 +29,7 @@
             <!-- Поле ввода имени, привязка к ViewModel -->
             <Entry Placeholder="Enter your name" 
                    Text="{Binding Name}"
-                   BackgroundColor="{Binding IsUserNameValid, Converter={StaticResource BoolenToBluRed}}"
+                   BackgroundColor="{Binding IsUserNameValid, Converter={StaticResource BoolToColorConverter}}"
                    Margin="0,10" />
 
             <!-- Поле ввода nickname, привязка к ViewModel -->
