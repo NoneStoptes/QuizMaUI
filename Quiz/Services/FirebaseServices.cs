@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Quiz.Models;
 using Firebase.Database.Query;
+using Microsoft.Maui.Storage;
 
 namespace Quiz.Services
 {
@@ -84,6 +85,18 @@ namespace Quiz.Services
             {
                 throw new Exception("Ошибка при аутентификации: " + ex.Message);
             }
+        }
+
+        public async Task<Person> GetUserByEmailAndPassword(string email, string password)
+        {
+            var persons = await client
+                .Child("Person")
+                .OnceAsync<Person>();
+
+            var user = persons
+                .FirstOrDefault(x => x.Object.Email == email && x.Object.Password == password);
+
+            return user?.Object;
         }
 
     }
