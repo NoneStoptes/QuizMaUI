@@ -38,11 +38,25 @@
                    BackgroundColor="{Binding IsNicknameValid, Converter={StaticResource BoolToColorConverter}}"
                    Margin="0,10" />
 
+            <Label x:Name="NicknameErrorLabel"
+                Text=""
+                TextColor="Red"
+                IsVisible="False"
+                FontSize="12"
+                BackgroundColor="Transparent" />
+
             <!-- Поле ввода электронной почты, привязка к ViewModel -->
             <Entry Placeholder="Enter your email address" 
                    Text="{Binding Email}"
                    BackgroundColor="{Binding IsEmailValid, Converter={StaticResource BoolToColorConverter}}"
                    Margin="0,10" />
+
+            <Label x:Name="EmailErrorLabel"
+               Text=""
+               TextColor="Red"
+               IsVisible="False"
+               FontSize="12"
+               BackgroundColor="Transparent" />
 
             <!-- Поле ввода пароля, привязка к ViewModel -->
             <Entry Placeholder="Enter your password" 
