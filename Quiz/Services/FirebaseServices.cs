@@ -1,15 +1,9 @@
-﻿using Firebase.Auth.Providers;
+﻿using Firebase.Auth;
+using Firebase.Auth.Providers;
 using Firebase.Auth.Repository;
-using Firebase.Auth;
 using Firebase.Database;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Quiz.Models;
 using Firebase.Database.Query;
-using Microsoft.Maui.Storage;
+using Quiz.Models;
 
 namespace Quiz.Services
 {
@@ -86,6 +80,75 @@ namespace Quiz.Services
                 throw new Exception("Ошибка при аутентификации: " + ex.Message);
             }
         }
+
+        public async Task<bool> IsNicknameExists(string nickname)
+        {
+            try
+            {
+                var persons = await client
+                    .Child("Person")
+                    .OnceAsync<Person>();
+
+                if (persons == null || persons.Count == 0)
+                {
+                    System.Diagnostics.Debug.WriteLine("Firebase: список пуст или null.");
+                    return false;
+                }
+
+                foreach (var x in persons)
+                {
+                    string nickFromDb = x?.Object?.Nickname;
+                    if (!string.IsNullOrEmpty(nickFromDb))
+                    {
+                        System.Diagnostics.Debug.WriteLine($"Firebase Nickname: '{nickFromDb}'");
+                        if (nickFromDb.Trim().ToLower() == nickname.Trim().ToLower())
+                            return true;
+                    }
+                }
+
+                return false;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"[FirebaseServices] Ошибка при проверке никнейма: {ex.Message}");
+                return false;
+            }
+        }
+
+        public async Task<bool> IsEmailExists(string email)
+        {
+            try
+            {
+                var persons = await client
+                    .Child("Person")
+                    .OnceAsync<Person>();
+
+                if (persons == null || persons.Count == 0)
+                {
+                    System.Diagnostics.Debug.WriteLine("Firebase: список пуст или null.");
+                    return false;
+                }
+
+                foreach (var x in persons)
+                {
+                    string emailFromDb = x?.Object?.Email;
+                    if (!string.IsNullOrEmpty(emailFromDb))
+                    {
+                        System.Diagnostics.Debug.WriteLine($"Firebase Nickname: '{emailFromDb}'");
+                        if (emailFromDb.Trim().ToLower() == email.Trim().ToLower())
+                            return true;
+                    }
+                }
+
+                return false;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"[FirebaseServices] Ошибка при проверке никнейма: {ex.Message}");
+                return false;
+            }
+        }
+
 
         public async Task<Person> GetUserByEmailAndPassword(string email, string password)
         {

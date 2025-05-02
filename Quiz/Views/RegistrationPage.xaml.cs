@@ -1,6 +1,7 @@
-using Microsoft.Maui.Controls;
+﻿using Microsoft.Maui.Controls;
 using Quiz.Models;
 using Quiz.Services;
+using Quiz.ViewModels;
 
 namespace Quiz.Views;
 
@@ -11,15 +12,14 @@ public partial class RegistrationPage : ContentPage
         InitializeComponent();
     }
 
-    // ?????????? ??? ???????????
     private async void OnRegisterClicked(object sender, EventArgs e)
     {
-        // ???????? ?????? ?? ViewModel
+        FirebaseServices.Init();
+
         var viewModel = BindingContext as ViewModels.RegistrationPageViewModel;
 
         if (viewModel != null)
         {
-            // ??????? ?????? Person ? ??????? ?? ViewModel
             var person = new Person
             {
                 Name = viewModel.Name,
@@ -28,15 +28,36 @@ public partial class RegistrationPage : ContentPage
                 Password = viewModel.Password,
             };
 
-            // ????????? ????????????
-            FirebaseServices.Init();
-            FirebaseServices.AddUserAsync(person);
+            System.Diagnostics.Debug.WriteLine($"NickName is : {person.Nickname}\nEmail is : {person.Email}");
 
-            // ???????? ?? ???????? ???????????
-            await DisplayAlert("Registration", "You have been successfully registered!", "OK");
+            var service = new FirebaseServices();
 
-            // ????????? ?? ???????? ????? -->
-            await Navigation.PushAsync(new LoginPage());
+            // 🔹 Проверка существования в базе
+            bool isNicknameExists = await service.IsNicknameExists(person.Nickname);
+            bool isEmailExists = await service.IsEmailExists(person.Email);
+            System.Diagnostics.Debug.WriteLine($"Nickname exists: {isNicknameExists}, Email exists: {isEmailExists}");
+
+
+            if(isNicknameExists || isEmailExists)
+            {
+                // Устанавливаем ошибки
+                viewModel.NicknameError = isNicknameExists ? "This Nickname is already registered" : ""; // Syntex error
+                viewModel.IsNicknameErrorVisible = isNicknameExists; // Syntex error
+
+                viewModel.EmailError = isEmailExists ? "This Email is already registered" : ""; // Syntex error
+                viewModel.IsEmailErrorVisible = isEmailExists; // Syntex error
+
+            }
+            else
+            {
+                // ✅ Если ошибок нет — продолжаем регистрацию
+                await FirebaseServices.AddUserAsync(person); // await чтобы дождаться завершения
+
+                await DisplayAlert("Registration", "You have been successfully registered!", "OK");
+
+                await Navigation.PushAsync(new LoginPage());
+
+            }
         }
     }
 

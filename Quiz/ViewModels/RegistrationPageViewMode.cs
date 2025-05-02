@@ -21,6 +21,10 @@ namespace Quiz.ViewModels
         private bool? _isPasswordValid;        
         private bool? _isPasswordConfirmed;
         private bool? _isEmailValid;
+        private string nicknameError;
+        private bool isNicknameErrorVisible;
+        private string emailError;
+        private bool isEmailErrorVisible;
 
         public string Name
         {
@@ -224,11 +228,53 @@ namespace Quiz.ViewModels
             }
         }
 
-        public bool IsFormValid => (IsUserNameValid == true) &&
-                           (IsNicknameValid == true) &&
-                           (IsPasswordValid == true) &&
-                           (IsPasswordConfirmed == true) &&
-                           (IsEmailValid == true);
+        public string NicknameError
+        {
+            get => nicknameError;
+            set
+            {
+                nicknameError = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool IsNicknameErrorVisible
+        {
+            get => isNicknameErrorVisible;
+            set
+            {
+                isNicknameErrorVisible = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string EmailError
+        {
+            get => emailError;
+            set
+            {
+                emailError = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool IsEmailErrorVisible
+        {
+            get => isEmailErrorVisible;
+            set
+            {
+                isEmailErrorVisible = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public bool IsFormValid =>
+            (IsUserNameValid == true) &&
+            (IsNicknameValid == true) &&
+            (IsPasswordValid == true) &&
+            (IsPasswordConfirmed == true) &&
+            (IsEmailValid == true);
+
 
         private void ValidateForm()
         {
