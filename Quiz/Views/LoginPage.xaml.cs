@@ -21,12 +21,17 @@ public partial class LoginPage : ContentPage
         if (viewModel != null)
         { 
             FirebaseServices.Init();
-            var person = await FirebaseServices.AuthenticateUserAsync(viewModel.Email, viewModel.Password);
+            Person person = await FirebaseServices.AuthenticateUserAsync(viewModel.Email, viewModel.Password);
 
             if (person != null)
             {
                 await DisplayAlert("Login", $"Welcome back, {person.Name}!", "OK");
-                await Navigation.PushAsync(new HomePage()); // Переход на главную страницу
+
+                // Сохраняем после регистрации или логина
+                UserPreferences.SavePerson(person);
+
+                // Переход на главную страницу
+                await Navigation.PushAsync(new HomePage());
             }
             else
             {

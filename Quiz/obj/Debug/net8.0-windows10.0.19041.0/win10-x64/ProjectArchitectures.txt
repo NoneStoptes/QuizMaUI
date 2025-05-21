@@ -1,1 +1,0 @@
-E:\Users\Tihonist\Documents\GitHub\QuizMaUI\Quiz\Quiz.csproj;x64

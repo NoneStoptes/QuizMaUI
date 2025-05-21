@@ -1,10 +1,14 @@
-﻿namespace Quiz
+﻿// AppShell.xaml.cs
+using Quiz.Views;
+
+namespace Quiz;
+
+public partial class AppShell : Shell
 {
-    public partial class AppShell : Shell
+    public AppShell()
     {
-        public AppShell()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
+        Routing.RegisterRoute("HomePage", typeof(HomePage));
+        Routing.RegisterRoute("WelcomePage", typeof(WelcomePage));
     }
 }

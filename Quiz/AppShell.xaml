@@ -1,16 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Shell
     x:Class="Quiz.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Quiz"
     xmlns:views="clr-namespace:Quiz.Views"
-    Shell.FlyoutBehavior="Disabled"
-    Title="Quiz">
+    Shell.FlyoutBehavior="Disabled">
 
+    <!-- Стартовая точка, она отобразится до навигации -->
     <ShellContent
-        Title="Welcome"
-        ContentTemplate="{DataTemplate views:WelcomePage}"
-        Route="WelcomePage" />
+      Title="Welcome"
+      Route="WelcomePage"
+      ContentTemplate="{DataTemplate views:WelcomePage}" />
+
+    <!-- HomePage тоже должен быть объявлен здесь -->
+    <ShellContent
+      Title="Home"
+      Route="HomePage"
+      ContentTemplate="{DataTemplate views:HomePage}" />
 
 </Shell>

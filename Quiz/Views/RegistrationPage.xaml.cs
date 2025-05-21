@@ -16,6 +16,8 @@ public partial class RegistrationPage : ContentPage
     {
         FirebaseServices.Init();
 
+        var service = new FirebaseServices();
+
         var viewModel = BindingContext as ViewModels.RegistrationPageViewModel;
 
         if (viewModel != null)
@@ -28,14 +30,9 @@ public partial class RegistrationPage : ContentPage
                 Password = viewModel.Password,
             };
 
-            System.Diagnostics.Debug.WriteLine($"NickName is : {person.Nickname}\nEmail is : {person.Email}");
-
-            var service = new FirebaseServices();
-
             // 🔹 Проверка существования в базе
             bool isNicknameExists = await service.IsNicknameExists(person.Nickname);
             bool isEmailExists = await service.IsEmailExists(person.Email);
-            System.Diagnostics.Debug.WriteLine($"Nickname exists: {isNicknameExists}, Email exists: {isEmailExists}");
 
 
             if(isNicknameExists || isEmailExists)
@@ -54,6 +51,9 @@ public partial class RegistrationPage : ContentPage
                 await FirebaseServices.AddUserAsync(person); // await чтобы дождаться завершения
 
                 await DisplayAlert("Registration", "You have been successfully registered!", "OK");
+
+                // Сохраняем после регистрации или логина
+                UserPreferences.SavePerson(person);
 
                 await Navigation.PushAsync(new LoginPage());
 
