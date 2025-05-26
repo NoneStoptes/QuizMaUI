@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Diagnostics;
+using System.Security.Cryptography;
 using System.Text;
 using Konscious.Security.Cryptography;  
 
@@ -71,6 +72,11 @@ namespace Quiz.Models
                 Iterations = 4
             };
             byte[] computed = argon2.GetBytes(32);
+
+            string saltB64 = Convert.ToBase64String(salt);
+            Debug.WriteLine($"[Verify] Pepper: {Convert.ToBase64String(_pepper)}");
+            Debug.WriteLine($"[Verify] Salt: {saltB64}");
+            Debug.WriteLine($"[Verify] Password match: {CryptographicOperations.FixedTimeEquals(computed, hash)}");
 
             // Сравнение в «фиксированное» время
             return CryptographicOperations.FixedTimeEquals(computed, hash);

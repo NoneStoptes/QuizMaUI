@@ -183,5 +183,23 @@ namespace Quiz.Services
 
             throw new Exception("Нет валидных пеперов в базе данных");
         }
+
+        public static async Task<List<Person>> GetAllPersonsAsync()
+        {
+            var result = await client.Child("Person").OnceAsync<Person>();
+            return result.Select(p => p.Object).ToList();
+        }
+
+        public static async Task<(string pepper, int index)> GetPepperByIndex_FromArray(int index)
+        {
+            var json = await new HttpClient().GetStringAsync("https://quiz-16042007-default-rtdb.europe-west1.firebasedatabase.app/peppers.json");
+            var array = JArray.Parse(json);
+
+            var item = array[index];
+            if (item == null || item["pepper"] == null)
+                throw new Exception($"Pepper with index {index} not found.");
+
+            return (item["pepper"]!.ToString(), index);
+        }
     }
 }
