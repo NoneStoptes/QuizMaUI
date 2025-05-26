@@ -2,6 +2,8 @@
 using Quiz.Models;
 using Quiz.Services;
 using Quiz.ViewModels;
+using System.Diagnostics;
+using System.Text.Json;
 
 namespace Quiz.Views;
 
@@ -27,15 +29,18 @@ public partial class RegistrationPage : ContentPage
                 Name = viewModel.Name,
                 Nickname = viewModel.Nickname,
                 Email = viewModel.Email,
-                Password = viewModel.Password,
+                Password = await viewModel.GetHashedPasswordAsync(),
+                PepperIndex = viewModel.UsedPepperNumber
             };
+
+            Debug.WriteLine(JsonSerializer.Serialize(person));
+
 
             // 🔹 Проверка существования в базе
             bool isNicknameExists = await service.IsNicknameExists(person.Nickname);
             bool isEmailExists = await service.IsEmailExists(person.Email);
 
-
-            if(isNicknameExists || isEmailExists)
+            if (isNicknameExists || isEmailExists)
             {
                 // Устанавливаем ошибки
                 viewModel.NicknameError = isNicknameExists ? "This Nickname is already registered" : ""; // Syntex error

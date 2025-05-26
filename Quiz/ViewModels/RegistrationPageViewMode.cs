@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
+using Quiz.Models;
+using Quiz.Services;
 
 namespace Quiz.ViewModels
 {
@@ -25,6 +27,7 @@ namespace Quiz.ViewModels
         private bool isNicknameErrorVisible;
         private string emailError;
         private bool isEmailErrorVisible;
+        public int UsedPepperNumber { get; private set; }
 
         public string Name
         {
@@ -266,6 +269,17 @@ namespace Quiz.ViewModels
                 isEmailErrorVisible = value;
                 OnPropertyChanged();
             }
+        }
+
+        public async Task<string> GetHashedPasswordAsync()
+        {
+            FirebaseServices.Init(); // обязательно инициализируем
+            var (pepper, index) = await FirebaseServices.GetLatestPepperAsync_FromArray(); // новая функция
+
+            UsedPepperNumber = index; // сохраняем номер использованного пепера
+
+            var hasher = new PasswordHasher(pepper);
+            return hasher.Hash(Password); // возвращаем захешированный пароль
         }
 
         public bool IsFormValid =>

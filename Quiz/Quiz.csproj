@@ -15,7 +15,7 @@
     <Nullable>enable</Nullable>
 
     <!-- ВАЖНО: отключаем упаковку в MSIX -->
-    <WindowsPackageType>None</WindowsPackageType>
+    <WindowsPackageType>MSIX</WindowsPackageType>
   </PropertyGroup>
 
   <ItemGroup>

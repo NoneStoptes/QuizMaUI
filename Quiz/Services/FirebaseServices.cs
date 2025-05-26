@@ -3,6 +3,7 @@ using Firebase.Auth.Providers;
 using Firebase.Auth.Repository;
 using Firebase.Database;
 using Firebase.Database.Query;
+using Newtonsoft.Json.Linq;
 using Quiz.Models;
 
 namespace Quiz.Services
@@ -162,5 +163,25 @@ namespace Quiz.Services
             return user?.Object;
         }
 
+        public static async Task<(string Pepper, int Index)> GetLatestPepperAsync_FromArray()
+        {
+            using var http = new HttpClient();
+            var json = await http.GetStringAsync("https://quiz-16042007-default-rtdb.europe-west1.firebasedatabase.app/peppers.json");
+
+            var array = JArray.Parse(json);
+
+            // перебираем с конца и ищем первый непустой элемент
+            for (int i = array.Count - 1; i >= 0; i--)
+            {
+                var item = array[i];
+                if (item != null && item["pepper"] != null)
+                {
+                    string pepper = item["pepper"]!.ToString();
+                    return (pepper, i);
+                }
+            }
+
+            throw new Exception("Нет валидных пеперов в базе данных");
+        }
     }
 }
