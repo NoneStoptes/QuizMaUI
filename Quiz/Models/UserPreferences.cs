@@ -16,7 +16,6 @@ namespace Quiz.Models
             Preferences.Set("Name", person.Name);
             Preferences.Set("Nickname", person.Nickname);
             Preferences.Set("Email", person.Email);
-            Preferences.Set("Password", person.Password); // хранящийся локально, не в базе!
         }
 
         // Загружает Person из Preferences
@@ -25,7 +24,6 @@ namespace Quiz.Models
             string name = Preferences.Get("Name", null);
             string nickname = Preferences.Get("Nickname", null);
             string email = Preferences.Get("Email", null);
-            string password = Preferences.Get("Password", null);
 
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(nickname))
                 return null; // недостаточно данных — пользователь не залогинен
@@ -34,8 +32,7 @@ namespace Quiz.Models
             {
                 Name = name,
                 Nickname = nickname,
-                Email = email,
-                Password = password
+                Email = email
             };
         }
 
@@ -43,7 +40,8 @@ namespace Quiz.Models
         public static bool IsUserLoggedIn()
         {
             return !string.IsNullOrEmpty(Preferences.Get("Email", null)) &&
-                   !string.IsNullOrEmpty(Preferences.Get("Nickname", null));
+                   !string.IsNullOrEmpty(Preferences.Get("Nickname", null)) &&
+                   !string.IsNullOrEmpty(Preferences.Get("Name", null));
         }
 
         // Очищает все сохранённые данные пользователя
@@ -52,7 +50,6 @@ namespace Quiz.Models
             Preferences.Remove("Name");
             Preferences.Remove("Nickname");
             Preferences.Remove("Email");
-            Preferences.Remove("Password");
         }
     }
 }
