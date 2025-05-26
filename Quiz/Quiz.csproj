@@ -37,6 +37,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <MauiXaml Update="Views\HomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Views\HomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
