@@ -1,57 +1,69 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Quiz.Views.WelcomePage">
+<ContentPage
+    x:Class="Quiz.Views.WelcomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <VerticalStackLayout Padding="20">
-        <!-- Text Welcome-->
-        <Label Text="Welcome to Quiz"
-               FontSize="26"
-               FontAttributes="Bold"
-               HorizontalOptions="Center"
-               Margin="0,20,0,10" />
+        <!--  Text Welcome  -->
+        <Label
+            Margin="0,20,0,10"
+            FontAttributes="Bold"
+            FontSize="26"
+            HorizontalOptions="Center"
+            Text="Welcome to Quiz" />
 
-        <!-- Text enter to account-->
-        <Label Text="Enter to account"
-               FontSize="18"
-               HorizontalOptions="Center"
-               Margin="0,10,0,10" />
+        <!--  Text enter to account  -->
+        <Label
+            Margin="0,10,0,10"
+            FontSize="18"
+            HorizontalOptions="Center"
+            Text="Enter to account" />
 
         <HorizontalStackLayout HorizontalOptions="Center" Spacing="15">
-            <Button Text="Login" 
-                    BackgroundColor="LightGray"
-                    TextColor="Black"
-                    WidthRequest="100" 
-                    Clicked="OnLoginClicked"/>
-            <Button Text="Register" 
-                    BackgroundColor="Blue"
-                    TextColor="White"
-                    WidthRequest="100" 
-                    Clicked="OnRegisterClicked"/>
-            <Button Text="Devloper Only"
-                    BackgroundColor="Green"
-                    TextColor="White"
-                    WidthRequest="150"
-                    Clicked="OnDevloperModeClicked"/>
+            <Button
+                BackgroundColor="LightGray"
+                Clicked="OnLoginClicked"
+                Text="Login"
+                TextColor="Black"
+                WidthRequest="100" />
+            <Button
+                BackgroundColor="Blue"
+                Clicked="OnRegisterClicked"
+                Text="Register"
+                TextColor="White"
+                WidthRequest="100" />
+            <Button
+                BackgroundColor="Green"
+                Clicked="OnDevloperModeClicked"
+                Text="Devloper Only"
+                TextColor="White"
+                WidthRequest="150" />
         </HorizontalStackLayout>
 
-        <Image Source="logo.png"
-               HeightRequest="150"
-               WidthRequest="150"
-               HorizontalOptions="Center"
-               Margin="0,20,0,20" />
+        <Image
+            Margin="0,20,0,20"
+            HeightRequest="150"
+            HorizontalOptions="Center"
+            Source="logo.png"
+            WidthRequest="150" />
 
-        <!-- Контакты в одной линии -->
-        <HorizontalStackLayout HorizontalOptions="Center" Spacing="20" Margin="0,10,0,10">
-            <Image Source="email.png"
-                   HeightRequest="50"
-                   WidthRequest="50">
+        <!--  Контакты в одной линии  -->
+        <HorizontalStackLayout
+            Margin="0,10,0,10"
+            HorizontalOptions="Center"
+            Spacing="20">
+            <Image
+                HeightRequest="50"
+                Source="email.png"
+                WidthRequest="50">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnEmailTapped" />
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="telegram.png"
-                   HeightRequest="50"
-                   WidthRequest="50">
+            <Image
+                HeightRequest="50"
+                Source="telegram.png"
+                WidthRequest="50">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnTelegramTapped" />
                 </Image.GestureRecognizers>
