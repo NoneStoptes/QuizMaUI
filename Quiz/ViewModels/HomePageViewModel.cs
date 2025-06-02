@@ -1,87 +1,38 @@
-﻿using System.Collections.ObjectModel;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+using Quiz.Models;         // Тут должны быть классы Person, UserPreferences, и т.д.
+using Quiz;                // если UserPreferences находится в корневом пространстве имён Quiz
 
 namespace Quiz.ViewModels
 {
-    public class Card
-    {
-        public string Title { get; set; }
-        public string Image { get; set; }
-    }
-
     public class HomePageViewModel : INotifyPropertyChanged
     {
-        private string _selectedLevel;
-        private bool _areCardsVisible;
-
-        public string SelectedLevel
+        private string _greeting;
+        public string Greeting
         {
-            get => _selectedLevel;
+            get => _greeting;
             set
             {
-                if (_selectedLevel != value)
+                if (_greeting != value)
                 {
-                    _selectedLevel = value;
-                    OnPropertyChanged(nameof(SelectedLevel));
-
-                    // Обновляем видимость карточек
-                    UpdateCards();
+                    _greeting = value;
+                    OnPropertyChanged(nameof(Greeting));
                 }
             }
         }
 
-        public bool AreCardsVisible
+        public HomePageViewModel()
         {
-            get => _areCardsVisible;
-            set
-            {
-                if (_areCardsVisible != value)
-                {
-                    _areCardsVisible = value;
-                    OnPropertyChanged(nameof(AreCardsVisible));
-                }
-            }
-        }
+            // Загрузка текущего пользователя
+            var person = UserPreferences.LoadPerson();
 
-        public ObservableCollection<Card> Cards { get; set; } = new ObservableCollection<Card>();
-
-        private void UpdateCards()
-        {
-            Cards.Clear();
-
-            if (SelectedLevel == "Very Easy")
-            {
-                Cards.Add(new Card { Title = "Animals", Image = "cat.png" });
-                Cards.Add(new Card { Title = "Food", Image = "salad.png" });
-                Cards.Add(new Card { Title = "Sports", Image = "football.png" });
-                Cards.Add(new Card { Title = "Geography", Image = "globe.png" });
-                AreCardsVisible = true;
-            }
-            else if (SelectedLevel == "Easy")
-            {
-                Cards.Add(new Card { Title = "Food", Image = "salad.png" });
-                AreCardsVisible = true;
-            }
-            else if (SelectedLevel == "Medium")
-            {
-                Cards.Add(new Card { Title = "Sports", Image = "football.png" });
-                AreCardsVisible = true;
-            }
-            else if (SelectedLevel == "Hard")
-            {
-                Cards.Add(new Card { Title = "Geography", Image = "globe.png" });
-                AreCardsVisible = true;
-            }
+            if (person != null && !string.IsNullOrEmpty(person.Name))
+                Greeting = $"Welcome Back {person.Name}";
             else
-            {
-                AreCardsVisible = false;
-            }
+                Greeting = "Welcome Back"; // Или оставить пустым: string.Empty
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
+        protected virtual void OnPropertyChanged(string propertyName) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
     }
 }
