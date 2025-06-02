@@ -18,6 +18,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
+        <!--  Header Row with Welcome and Exit  -->
         <Grid
             Grid.Row="0"
             ColumnDefinitions="*,Auto"
@@ -68,75 +69,127 @@
             </Frame>
         </Grid>
 
-        <!--  Строка 1: Поисковая строка  -->
-        <Frame
+        <!--  Redesigned Search Bar  -->
+        <Grid
             Grid.Row="1"
             Margin="0,16,0,0"
-            Padding="0"
-            BackgroundColor="#2D2D2D"
-            CornerRadius="12"
-            HeightRequest="40"
-            HorizontalOptions="Center"
-            VerticalOptions="Start"
-            WidthRequest="448">
-            <Grid BackgroundColor="Transparent">
+            HorizontalOptions="Center">
+
+            <!--  Single container approach for better control  -->
+            <Grid
+                Padding="4"
+                BackgroundColor="#2D2D2D"
+                HeightRequest="48"
+                WidthRequest="448">
+
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="56" />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
 
-                <Border
+                <!--  Search input background  -->
+                <BoxView
                     Grid.Column="0"
-                    Margin="0,4,8,4"
+                    Margin="0,0,4,0"
                     BackgroundColor="#3A3A3A"
-                    Stroke="#4A4A4A"
-                    StrokeThickness="1">
+                    CornerRadius="8" />
 
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="10" />
-                    </Border.StrokeShape>
+                <!--  Entry with simple positioning  -->
+                <Entry
+                    x:Name="SearchEntry"
+                    Grid.Column="0"
+                    Margin="12,0,12,0"
+                    BackgroundColor="Transparent"
+                    FontSize="16"
+                    HorizontalOptions="FillAndExpand"
+                    Placeholder="Enter quiz theme..."
+                    PlaceholderColor="#9E9E9E"
+                    TextColor="#FFFFFF"
+                    VerticalOptions="FillAndExpand" />
 
-                    <Entry
-                        Margin="12,0"
-                        BackgroundColor="Transparent"
-                        FontSize="16"
-                        Placeholder="Enter quiz theme..."
-                        PlaceholderColor="#9E9E9E"
-                        TextColor="#FFFFFF"
-                        VerticalOptions="Center" />
-                </Border>
-
-                <!--  Обновленная кнопка поиска  -->
-                <Border
+                <!--  Enhanced Search Button  -->
+                <Grid
                     Grid.Column="1"
-                    Margin="4,4,4,4"
-                    BackgroundColor="#FF6B6B"
-                    HeightRequest="32"
-                    HorizontalOptions="Center"
-                    StrokeThickness="0"
-                    VerticalOptions="Center"
-                    WidthRequest="48">
+                    Margin="2,0,0,0"
+                    HeightRequest="40"
+                    WidthRequest="52">
 
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="8" />
-                    </Border.StrokeShape>
+                    <!--  Shadow effect layer  -->
+                    <BoxView
+                        BackgroundColor="#000000"
+                        CornerRadius="10"
+                        Opacity="0.3"
+                        TranslationX="2"
+                        TranslationY="2" />
 
-                    <!--  Иконка поиска  -->
-                    <Image
-                        Aspect="AspectFit"
-                        HeightRequest="18"
-                        HorizontalOptions="Center"
-                        Source="https://img.icons8.com/ios-filled/50/ffffff/search.png"
-                        VerticalOptions="Center"
-                        WidthRequest="18" />
+                    <!--  Gradient background simulation  -->
+                    <BoxView BackgroundColor="#FF5252" CornerRadius="10" />
 
-                    <Border.GestureRecognizers>
+                    <!--  Main button background  -->
+                    <Frame
+                        Margin="0"
+                        Padding="0"
+                        BackgroundColor="#FF6B6B"
+                        BorderColor="#FF8A80"
+                        CornerRadius="10"
+                        HasShadow="False">
+
+                        <Grid>
+                            <!--  Subtle top highlight  -->
+                            <BoxView
+                                Margin="10,0"
+                                BackgroundColor="#FFFFFF"
+                                HeightRequest="1"
+                                Opacity="0.3"
+                                VerticalOptions="Start" />
+
+                            <!--  Icon container with better positioning  -->
+                            <Frame
+                                Padding="0"
+                                BackgroundColor="Transparent"
+                                BorderColor="Transparent"
+                                HasShadow="False"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center">
+
+                                <Image
+                                    HeightRequest="22"
+                                    Opacity="0.95"
+                                    Source="https://img.icons8.com/ios-filled/50/ffffff/search.png"
+                                    WidthRequest="22">
+                                    <!--  Add a subtle glow effect to the icon  -->
+                                    <Image.Shadow>
+                                        <Shadow
+                                            Brush="White"
+                                            Opacity="0.5"
+                                            Radius="8"
+                                            Offset="0,0" />
+                                    </Image.Shadow>
+                                </Image>
+                            </Frame>
+
+                            <!--  Hover/pressed effect overlay  -->
+                            <BoxView
+                                x:Name="SearchButtonOverlay"
+                                BackgroundColor="#FFFFFF"
+                                InputTransparent="True"
+                                Opacity="0" />
+                        </Grid>
+                    </Frame>
+
+                    <Grid.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnSearchClicked" />
-                    </Border.GestureRecognizers>
-                </Border>
-            </Grid>
-        </Frame>
+                    </Grid.GestureRecognizers>
+                </Grid>
 
+                <!--  Outer rounded corners  -->
+                <Grid.Clip>
+                    <RoundRectangleGeometry CornerRadius="12" Rect="0,0,448,48" />
+                </Grid.Clip>
+            </Grid>
+        </Grid>
+
+        <!--  Difficulty Level Selection  -->
         <HorizontalStackLayout
             Grid.Row="2"
             Margin="0,24,0,0"
@@ -146,9 +199,12 @@
 
             <VerticalStackLayout HorizontalOptions="Center" Spacing="0">
                 <RadioButton
+                    x:Name="VeryEasyRadio"
+                    GroupName="DifficultyGroup"
                     HorizontalOptions="Center"
-                    IsChecked="False"
-                    VerticalOptions="Center" />
+                    IsChecked="True"
+                    VerticalOptions="Center"
+                    Value="VeryEasy" />
                 <Label
                     Margin="0,-8,0,0"
                     FontSize="14"
@@ -159,9 +215,12 @@
 
             <VerticalStackLayout HorizontalOptions="Center" Spacing="0">
                 <RadioButton
+                    x:Name="EasyRadio"
+                    GroupName="DifficultyGroup"
                     HorizontalOptions="Center"
                     IsChecked="False"
-                    VerticalOptions="Center" />
+                    VerticalOptions="Center"
+                    Value="Easy" />
                 <Label
                     Margin="0,-8,0,0"
                     FontSize="14"
@@ -172,9 +231,12 @@
 
             <VerticalStackLayout HorizontalOptions="Center" Spacing="0">
                 <RadioButton
+                    x:Name="MediumRadio"
+                    GroupName="DifficultyGroup"
                     HorizontalOptions="Center"
                     IsChecked="False"
-                    VerticalOptions="Center" />
+                    VerticalOptions="Center"
+                    Value="Medium" />
                 <Label
                     Margin="0,-8,0,0"
                     FontSize="14"
@@ -185,9 +247,12 @@
 
             <VerticalStackLayout HorizontalOptions="Center" Spacing="0">
                 <RadioButton
+                    x:Name="HardRadio"
+                    GroupName="DifficultyGroup"
                     HorizontalOptions="Center"
                     IsChecked="False"
-                    VerticalOptions="Center" />
+                    VerticalOptions="Center"
+                    Value="Hard" />
                 <Label
                     Margin="0,-8,0,0"
                     FontSize="14"
