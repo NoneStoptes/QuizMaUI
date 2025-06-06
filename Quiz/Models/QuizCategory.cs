@@ -28,12 +28,6 @@ namespace Quiz.Models
         public string CategoryId { get; set; }
 
         /// <summary>
-        /// The difficulty level of all questions in this category.
-        /// This determines which difficulty filter will show this category.
-        /// </summary>
-        public DifficultyLevel Difficulty { get; set; }
-
-        /// <summary>
         /// The main topic or subject area.
         /// Example: "Animals", "History", "Science"
         /// </summary>
