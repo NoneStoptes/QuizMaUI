@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Quiz.Views.ResultsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:Quiz.ViewModels"
+    Title="Quiz Results"
+    BackgroundColor="#181818">
+
+    <ContentPage.BindingContext>
+        <vm:ResultsPageViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid Padding="20">
+        <ScrollView>
+            <VerticalStackLayout Spacing="20" VerticalOptions="Center">
+
+                <!--  Results Header  -->
+                <Frame
+                    Padding="24"
+                    BackgroundColor="#2D2D2D"
+                    CornerRadius="20"
+                    HasShadow="True">
+                    <Frame.Shadow>
+                        <Shadow
+                            Brush="#000000"
+                            Opacity="0.4"
+                            Radius="12"
+                            Offset="0,6" />
+                    </Frame.Shadow>
+
+                    <VerticalStackLayout Spacing="16">
+                        <!--  Trophy/Result Icon  -->
+                        <Label
+                            FontSize="72"
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding ResultIcon}" />
+
+                        <!--  Main Result Text  -->
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="32"
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding ResultTitle}"
+                            TextColor="#FFFFFF" />
+
+                        <!--  Percentage Circle  -->
+                        <Frame
+                            Padding="0"
+                            BackgroundColor="#1A1A1A"
+                            CornerRadius="100"
+                            HeightRequest="150"
+                            HorizontalOptions="Center"
+                            WidthRequest="150">
+                            <Grid>
+                                <ProgressBar
+                                    BackgroundColor="#2A2A2A"
+                                    HeightRequest="140"
+                                    HorizontalOptions="Center"
+                                    Progress="{Binding ProgressValue}"
+                                    ProgressColor="{Binding ProgressColor}"
+                                    VerticalOptions="Center"
+                                    WidthRequest="140" />
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="36"
+                                    HorizontalOptions="Center"
+                                    Text="{Binding Percentage, StringFormat='{0}%'}"
+                                    TextColor="#FFFFFF"
+                                    VerticalOptions="Center" />
+                            </Grid>
+                        </Frame>
+
+                        <!--  Score Text  -->
+                        <Label HorizontalTextAlignment="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span
+                                        FontSize="18"
+                                        Text="You got "
+                                        TextColor="#B0B0B0" />
+                                    <Span
+                                        FontAttributes="Bold"
+                                        FontSize="24"
+                                        Text="{Binding CorrectAnswers}"
+                                        TextColor="#FF6B6B" />
+                                    <Span
+                                        FontSize="18"
+                                        Text=" out of "
+                                        TextColor="#B0B0B0" />
+                                    <Span
+                                        FontAttributes="Bold"
+                                        FontSize="24"
+                                        Text="{Binding TotalQuestions}"
+                                        TextColor="#FFFFFF" />
+                                    <Span
+                                        FontSize="18"
+                                        Text=" correct!"
+                                        TextColor="#B0B0B0" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!--  Statistics Cards  -->
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                    <Frame
+                        Grid.Column="0"
+                        Padding="16"
+                        BackgroundColor="#2D2D2D"
+                        CornerRadius="16">
+                        <VerticalStackLayout Spacing="8">
+                            <Label
+                                FontSize="28"
+                                HorizontalTextAlignment="Center"
+                                Text="✓"
+                                TextColor="#4CAF50" />
+                            <Label
+                                FontSize="12"
+                                HorizontalTextAlignment="Center"
+                                Text="Correct"
+                                TextColor="#808080" />
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="24"
+                                HorizontalTextAlignment="Center"
+                                Text="{Binding CorrectAnswers}"
+                                TextColor="#4CAF50" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Frame
+                        Grid.Column="1"
+                        Padding="16"
+                        BackgroundColor="#2D2D2D"
+                        CornerRadius="16">
+                        <VerticalStackLayout Spacing="8">
+                            <Label
+                                FontSize="28"
+                                HorizontalTextAlignment="Center"
+                                Text="✗"
+                                TextColor="#F44336" />
+                            <Label
+                                FontSize="12"
+                                HorizontalTextAlignment="Center"
+                                Text="Wrong"
+                                TextColor="#808080" />
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="24"
+                                HorizontalTextAlignment="Center"
+                                Text="{Binding WrongAnswers}"
+                                TextColor="#F44336" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </Grid>
+
+                <!--  Performance Message  -->
+                <Frame
+                    Padding="16"
+                    BackgroundColor="#1A1A1A"
+                    CornerRadius="12">
+                    <Label
+                        FontSize="14"
+                        HorizontalTextAlignment="Center"
+                        Text="{Binding PerformanceMessage}"
+                        TextColor="#B0B0B0" />
+                </Frame>
+
+                <!--  Action Buttons  -->
+                <VerticalStackLayout Spacing="12">
+                    <Button
+                        BackgroundColor="#FF6B6B"
+                        Command="{Binding PlayAgainCommand}"
+                        CornerRadius="16"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        HeightRequest="56"
+                        Text="Play Again"
+                        TextColor="#FFFFFF" />
+
+                    <Button
+                        BackgroundColor="#2D2D2D"
+                        Command="{Binding GoHomeCommand}"
+                        CornerRadius="12"
+                        HeightRequest="48"
+                        Text="Back to Home"
+                        TextColor="#B0B0B0" />
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

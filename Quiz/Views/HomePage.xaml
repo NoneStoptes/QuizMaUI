@@ -3,9 +3,16 @@
     x:Class="Quiz.Views.HomePage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:conv="clr-namespace:Quiz.Converters"
     xmlns:vm="clr-namespace:Quiz.ViewModels"
     Title="HomePage"
     BackgroundColor="#181818">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:InverseBoolConverter x:Key="InverseBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <ContentPage.BindingContext>
         <vm:HomePageViewModel />
@@ -200,6 +207,7 @@
             <VerticalStackLayout HorizontalOptions="Center" Spacing="0">
                 <RadioButton
                     x:Name="VeryEasyRadio"
+                    CheckedChanged="OnDifficultyChanged"
                     GroupName="DifficultyGroup"
                     HorizontalOptions="Center"
                     IsChecked="True"
@@ -216,6 +224,7 @@
             <VerticalStackLayout HorizontalOptions="Center" Spacing="0">
                 <RadioButton
                     x:Name="EasyRadio"
+                    CheckedChanged="OnDifficultyChanged"
                     GroupName="DifficultyGroup"
                     HorizontalOptions="Center"
                     IsChecked="False"
@@ -231,23 +240,25 @@
 
             <VerticalStackLayout HorizontalOptions="Center" Spacing="0">
                 <RadioButton
-                    x:Name="MediumRadio"
+                    x:Name="NormalRadio"
+                    CheckedChanged="OnDifficultyChanged"
                     GroupName="DifficultyGroup"
                     HorizontalOptions="Center"
                     IsChecked="False"
                     VerticalOptions="Center"
-                    Value="Medium" />
+                    Value="Normal" />
                 <Label
                     Margin="0,-8,0,0"
                     FontSize="14"
                     HorizontalOptions="Center"
-                    Text="Medium"
+                    Text="Normal"
                     TextColor="#E0E0E0" />
             </VerticalStackLayout>
 
             <VerticalStackLayout HorizontalOptions="Center" Spacing="0">
                 <RadioButton
                     x:Name="HardRadio"
+                    CheckedChanged="OnDifficultyChanged"
                     GroupName="DifficultyGroup"
                     HorizontalOptions="Center"
                     IsChecked="False"
@@ -261,5 +272,285 @@
                     TextColor="#E0E0E0" />
             </VerticalStackLayout>
         </HorizontalStackLayout>
+
+        <!--  Theme Cards Section  -->
+        <ScrollView Grid.Row="2" Margin="0,100,0,0">
+            <CollectionView Margin="16,0" ItemsSource="{Binding FilteredCategories}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout
+                        HorizontalItemSpacing="16"
+                        Orientation="Vertical"
+                        Span="2"
+                        VerticalItemSpacing="16" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame
+                            Padding="0"
+                            BackgroundColor="#2D2D2D"
+                            CornerRadius="12"
+                            HasShadow="True">
+                            <Frame.Shadow>
+                                <Shadow
+                                    Brush="#000000"
+                                    Opacity="0.3"
+                                    Radius="8"
+                                    Offset="0,4" />
+                            </Frame.Shadow>
+
+                            <Grid RowDefinitions="180,Auto,Auto,Auto,Auto" RowSpacing="8">
+
+                                <!--  Theme Image - Fixed aspect ratio  -->
+                                <Frame
+                                    Grid.Row="0"
+                                    Margin="0"
+                                    Padding="0"
+                                    BackgroundColor="#1A1A1A"
+                                    CornerRadius="12"
+                                    IsClippedToBounds="True">
+                                    <Grid>
+                                        <!--  Background for empty space  -->
+                                        <BoxView BackgroundColor="#1A1A1A" />
+
+                                        <!--  Image with proper aspect  -->
+                                        <Image
+                                            Aspect="AspectFit"
+                                            HeightRequest="180"
+                                            HorizontalOptions="Center"
+                                            Source="{Binding ImageUrl}"
+                                            VerticalOptions="Center" />
+                                    </Grid>
+                                </Frame>
+
+                                <!--  Main Topic  -->
+                                <Label
+                                    Grid.Row="1"
+                                    Margin="12,8,12,0"
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="{Binding MainTopic}"
+                                    TextColor="#FFFFFF" />
+
+                                <!--  Sub Topic  -->
+                                <Label
+                                    Grid.Row="2"
+                                    Margin="12,0"
+                                    FontSize="14"
+                                    Text="{Binding SubTopic}"
+                                    TextColor="#B0B0B0" />
+
+                                <!--  Description  -->
+                                <Label
+                                    Grid.Row="3"
+                                    Margin="12,4,12,0"
+                                    FontSize="12"
+                                    LineBreakMode="TailTruncation"
+                                    MaxLines="2"
+                                    Text="{Binding Description}"
+                                    TextColor="#808080" />
+
+                                <!--  Question Count  -->
+                                <Frame
+                                    Grid.Row="4"
+                                    Margin="12,8,12,12"
+                                    Padding="8,4"
+                                    BackgroundColor="#1A1A1A"
+                                    CornerRadius="6"
+                                    HorizontalOptions="Start">
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span
+                                                    FontAttributes="Bold"
+                                                    Text="{Binding TotalQuestions}"
+                                                    TextColor="#FF6B6B" />
+                                                <Span Text=" Questions" TextColor="#B0B0B0" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </Frame>
+
+                                <!--  Tap Gesture for the entire card  -->
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:HomePageViewModel}}, Path=SelectCategoryCommand}" CommandParameter="{Binding}" />
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+                <!--  Empty State  -->
+                <CollectionView.EmptyView>
+                    <VerticalStackLayout
+                        Margin="0,50"
+                        HorizontalOptions="Center"
+                        Spacing="16"
+                        VerticalOptions="Center">
+                        <Image
+                            HeightRequest="80"
+                            Opacity="0.5"
+                            Source="https://img.icons8.com/ios/100/808080/nothing-found.png"
+                            WidthRequest="80" />
+                        <Label
+                            FontSize="16"
+                            HorizontalTextAlignment="Center"
+                            Text="No themes available for this difficulty"
+                            TextColor="#808080" />
+                    </VerticalStackLayout>
+                </CollectionView.EmptyView>
+            </CollectionView>
+        </ScrollView>
+
+        <!--  Popup Overlay  -->
+        <Grid
+            Grid.RowSpan="3"
+            BackgroundColor="#80000000"
+            InputTransparent="{Binding IsPopupVisible, Converter={StaticResource InverseBoolConverter}}"
+            IsVisible="{Binding IsPopupVisible}">
+
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding ClosePopupCommand}" />
+            </Grid.GestureRecognizers>
+
+            <!--  Popup Content  -->
+            <Frame
+                x:Name="PopupFrame"
+                Padding="0"
+                BackgroundColor="#1E1E1E"
+                CornerRadius="20"
+                HasShadow="True"
+                HeightRequest="{Binding PopupHeight}"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="{Binding PopupWidth}">
+
+                <Frame.Shadow>
+                    <Shadow
+                        Brush="#000000"
+                        Opacity="0.6"
+                        Radius="20"
+                        Offset="0,10" />
+                </Frame.Shadow>
+
+                <Grid RowDefinitions="Auto,*,Auto">
+                    <!--  Close Button  -->
+                    <Frame
+                        Grid.Row="0"
+                        Padding="16,16,16,0"
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="End">
+                        <Image
+                            HeightRequest="24"
+                            Opacity="0.7"
+                            Source="https://img.icons8.com/ios-filled/50/ffffff/delete-sign.png"
+                            WidthRequest="24">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding ClosePopupCommand}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+
+                    <!--  Popup Content  -->
+                    <ScrollView Grid.Row="1" Padding="24,0,24,16">
+                        <VerticalStackLayout Spacing="16">
+                            <!--  Category Image  -->
+                            <Frame
+                                Padding="0"
+                                BackgroundColor="#2A2A2A"
+                                CornerRadius="16"
+                                HeightRequest="200"
+                                IsClippedToBounds="True">
+                                <Image Aspect="AspectFit" Source="{Binding SelectedCategory.ImageUrl}" />
+                            </Frame>
+
+                            <!--  Main Topic  -->
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="28"
+                                HorizontalTextAlignment="Center"
+                                Text="{Binding SelectedCategory.MainTopic}"
+                                TextColor="#FFFFFF" />
+
+                            <!--  Sub Topic  -->
+                            <Label
+                                Margin="0,-8,0,0"
+                                FontSize="18"
+                                HorizontalTextAlignment="Center"
+                                Text="{Binding SelectedCategory.SubTopic}"
+                                TextColor="#FF6B6B" />
+
+                            <!--  Description  -->
+                            <Frame
+                                Padding="16"
+                                BackgroundColor="#2A2A2A"
+                                CornerRadius="12">
+                                <Label
+                                    FontSize="14"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding SelectedCategory.Description}"
+                                    TextColor="#B0B0B0" />
+                            </Frame>
+
+                            <!--  Quiz Info  -->
+                            <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                                <Frame
+                                    Grid.Column="0"
+                                    Padding="16"
+                                    BackgroundColor="#2A2A2A"
+                                    CornerRadius="12">
+                                    <VerticalStackLayout>
+                                        <Label
+                                            FontSize="12"
+                                            HorizontalTextAlignment="Center"
+                                            Text="Questions"
+                                            TextColor="#808080" />
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="24"
+                                            HorizontalTextAlignment="Center"
+                                            Text="{Binding SelectedCategory.TotalQuestions}"
+                                            TextColor="#FFFFFF" />
+                                    </VerticalStackLayout>
+                                </Frame>
+
+                                <Frame
+                                    Grid.Column="1"
+                                    Padding="16"
+                                    BackgroundColor="#2A2A2A"
+                                    CornerRadius="12">
+                                    <VerticalStackLayout>
+                                        <Label
+                                            FontSize="12"
+                                            HorizontalTextAlignment="Center"
+                                            Text="Difficulty"
+                                            TextColor="#808080" />
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="24"
+                                            HorizontalTextAlignment="Center"
+                                            Text="{Binding SelectedDifficulty}"
+                                            TextColor="#FFFFFF" />
+                                    </VerticalStackLayout>
+                                </Frame>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </ScrollView>
+
+                    <!--  Start Button  -->
+                    <Button
+                        Grid.Row="2"
+                        Margin="24,0,24,24"
+                        BackgroundColor="#FF6B6B"
+                        Command="{Binding StartQuizCommand}"
+                        CornerRadius="16"
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        HeightRequest="56"
+                        Text="Start Quiz"
+                        TextColor="#FFFFFF" />
+                </Grid>
+            </Frame>
+        </Grid>
     </Grid>
 </ContentPage>

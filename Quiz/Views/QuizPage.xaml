@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Quiz.Views.QuizPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:Quiz.ViewModels"
+    Title="Quiz"
+    BackgroundColor="#181818">
+
+    <ContentPage.BindingContext>
+        <vm:QuizPageViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <!--  Pre-game screen  -->
+        <Grid Padding="20" IsVisible="{Binding IsPreGame}">
+            <VerticalStackLayout Spacing="20" VerticalOptions="Center">
+                <!--  Category Info Card  -->
+                <Frame
+                    Padding="24"
+                    BackgroundColor="#2D2D2D"
+                    CornerRadius="16"
+                    HasShadow="True">
+                    <Frame.Shadow>
+                        <Shadow
+                            Brush="#000000"
+                            Opacity="0.3"
+                            Radius="8"
+                            Offset="0,4" />
+                    </Frame.Shadow>
+
+                    <VerticalStackLayout Spacing="16">
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="28"
+                            HorizontalTextAlignment="Center"
+                            Text="Ready to start?"
+                            TextColor="#FFFFFF" />
+
+                        <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                            <Frame
+                                Grid.Column="0"
+                                Padding="16"
+                                BackgroundColor="#1A1A1A"
+                                CornerRadius="12">
+                                <VerticalStackLayout>
+                                    <Label
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="Category"
+                                        TextColor="#808080" />
+                                    <Label
+                                        FontAttributes="Bold"
+                                        FontSize="20"
+                                        HorizontalTextAlignment="Center"
+                                        Text="{Binding CategoryId, StringFormat='#{0}'}"
+                                        TextColor="#FF6B6B" />
+                                </VerticalStackLayout>
+                            </Frame>
+
+                            <Frame
+                                Grid.Column="1"
+                                Padding="16"
+                                BackgroundColor="#1A1A1A"
+                                CornerRadius="12">
+                                <VerticalStackLayout>
+                                    <Label
+                                        FontSize="12"
+                                        HorizontalTextAlignment="Center"
+                                        Text="Questions"
+                                        TextColor="#808080" />
+                                    <Label
+                                        FontAttributes="Bold"
+                                        FontSize="20"
+                                        HorizontalTextAlignment="Center"
+                                        Text="{Binding TotalQuestions}"
+                                        TextColor="#FFFFFF" />
+                                </VerticalStackLayout>
+                            </Frame>
+                        </Grid>
+
+                        <Label
+                            Margin="0,8,0,0"
+                            FontSize="14"
+                            HorizontalTextAlignment="Center"
+                            Text="Answer all questions to complete the quiz!"
+                            TextColor="#B0B0B0" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!--  Start Button  -->
+                <Button
+                    BackgroundColor="#FF6B6B"
+                    Command="{Binding StartQuizCommand}"
+                    CornerRadius="16"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    HeightRequest="56"
+                    Text="START QUIZ"
+                    TextColor="#FFFFFF" />
+
+                <!--  Back Button  -->
+                <Button
+                    BackgroundColor="#2D2D2D"
+                    Command="{Binding GoBackCommand}"
+                    CornerRadius="12"
+                    HeightRequest="48"
+                    Text="Back to Home"
+                    TextColor="#B0B0B0" />
+            </VerticalStackLayout>
+        </Grid>
+
+        <!--  Game screen  -->
+        <Grid Padding="20" IsVisible="{Binding IsPlaying}">
+            <Grid RowDefinitions="Auto,*,Auto" RowSpacing="20">
+
+                <!--  Progress bar  -->
+                <Grid Grid.Row="0">
+                    <ProgressBar
+                        BackgroundColor="#2D2D2D"
+                        HeightRequest="8"
+                        Progress="{Binding Progress}"
+                        ProgressColor="#FF6B6B" />
+                    <Label
+                        Margin="0,16,0,0"
+                        FontSize="12"
+                        HorizontalOptions="Center"
+                        Text="{Binding ProgressText}"
+                        TextColor="#808080" />
+                </Grid>
+
+                <!--  Question section  -->
+                <Frame
+                    Grid.Row="1"
+                    Padding="24"
+                    BackgroundColor="#2D2D2D"
+                    CornerRadius="16"
+                    VerticalOptions="FillAndExpand">
+                    <VerticalStackLayout Spacing="24">
+                        <!--  Question text  -->
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding CurrentQuestion.QuestionText}"
+                            TextColor="#FFFFFF"
+                            VerticalOptions="CenterAndExpand" />
+
+                        <!--  Answer options  -->
+                        <VerticalStackLayout Spacing="12">
+                            <Button
+                                BackgroundColor="#1A1A1A"
+                                Command="{Binding AnswerCommand}"
+                                CommandParameter="{Binding CurrentQuestion.Option1}"
+                                CornerRadius="12"
+                                HeightRequest="56"
+                                Text="{Binding CurrentQuestion.Option1}"
+                                TextColor="#FFFFFF" />
+
+                            <Button
+                                BackgroundColor="#1A1A1A"
+                                Command="{Binding AnswerCommand}"
+                                CommandParameter="{Binding CurrentQuestion.Option2}"
+                                CornerRadius="12"
+                                HeightRequest="56"
+                                Text="{Binding CurrentQuestion.Option2}"
+                                TextColor="#FFFFFF" />
+
+                            <Button
+                                BackgroundColor="#1A1A1A"
+                                Command="{Binding AnswerCommand}"
+                                CommandParameter="{Binding CurrentQuestion.Option3}"
+                                CornerRadius="12"
+                                HeightRequest="56"
+                                Text="{Binding CurrentQuestion.Option3}"
+                                TextColor="#FFFFFF" />
+
+                            <Button
+                                BackgroundColor="#1A1A1A"
+                                Command="{Binding AnswerCommand}"
+                                CommandParameter="{Binding CurrentQuestion.Option4}"
+                                CornerRadius="12"
+                                HeightRequest="56"
+                                Text="{Binding CurrentQuestion.Option4}"
+                                TextColor="#FFFFFF" />
+                        </VerticalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!--  Timer or question counter  -->
+                <Label
+                    Grid.Row="2"
+                    FontSize="14"
+                    HorizontalTextAlignment="Center"
+                    Text="{Binding QuestionCounterText}"
+                    TextColor="#808080" />
+            </Grid>
+        </Grid>
+
+        <!--  Answer feedback popup  -->
+        <Frame
+            Padding="24"
+            BackgroundColor="{Binding FeedbackColor}"
+            CornerRadius="16"
+            HasShadow="True"
+            HorizontalOptions="Center"
+            IsVisible="{Binding ShowFeedback}"
+            VerticalOptions="Center"
+            WidthRequest="250">
+            <Frame.Shadow>
+                <Shadow
+                    Brush="#000000"
+                    Opacity="0.5"
+                    Radius="16"
+                    Offset="0,8" />
+            </Frame.Shadow>
+
+            <VerticalStackLayout Spacing="8">
+                <Label
+                    FontSize="48"
+                    HorizontalTextAlignment="Center"
+                    Text="{Binding FeedbackIcon}" />
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="24"
+                    HorizontalTextAlignment="Center"
+                    Text="{Binding FeedbackText}"
+                    TextColor="#FFFFFF" />
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>
