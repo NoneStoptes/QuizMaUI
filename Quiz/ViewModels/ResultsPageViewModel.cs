@@ -114,12 +114,10 @@ namespace Quiz.ViewModels
             }
         }
 
-        public ICommand PlayAgainCommand { get; }
         public ICommand GoHomeCommand { get; }
 
         public ResultsPageViewModel()
         {
-            PlayAgainCommand = new Command(async () => await PlayAgain());
             GoHomeCommand = new Command(async () => await GoHome());
         }
 
@@ -161,12 +159,6 @@ namespace Quiz.ViewModels
                 PerformanceMessage = "Don't give up! Practice makes perfect.";
                 ProgressColor = "#F44336";
             }
-        }
-
-        private async Task PlayAgain()
-        {
-            // Go back to the quiz page (will reload with same category)
-            await Shell.Current.GoToAsync("..");
         }
 
         private async Task GoHome()

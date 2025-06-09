@@ -168,26 +168,16 @@
                         TextColor="#B0B0B0" />
                 </Frame>
 
-                <!--  Action Buttons  -->
-                <VerticalStackLayout Spacing="12">
-                    <Button
-                        BackgroundColor="#FF6B6B"
-                        Command="{Binding PlayAgainCommand}"
-                        CornerRadius="16"
-                        FontAttributes="Bold"
-                        FontSize="18"
-                        HeightRequest="56"
-                        Text="Play Again"
-                        TextColor="#FFFFFF" />
-
-                    <Button
-                        BackgroundColor="#2D2D2D"
-                        Command="{Binding GoHomeCommand}"
-                        CornerRadius="12"
-                        HeightRequest="48"
-                        Text="Back to Home"
-                        TextColor="#B0B0B0" />
-                </VerticalStackLayout>
+                <!--  Action Button  -->
+                <Button
+                    BackgroundColor="#FF6B6B"
+                    Command="{Binding GoHomeCommand}"
+                    CornerRadius="16"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    HeightRequest="56"
+                    Text="Back to Home"
+                    TextColor="#FFFFFF" />
             </VerticalStackLayout>
         </ScrollView>
     </Grid>
