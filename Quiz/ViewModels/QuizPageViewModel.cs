@@ -15,6 +15,7 @@ namespace Quiz.ViewModels
         private bool _isPreGame = true;
         private bool _isPlaying = false;
         private bool _showFeedback = false;
+        private bool _isSpeaking = false;
         private QuizQuestion _currentQuestion;
         private List<QuizQuestion> _questions;
         private int _currentQuestionIndex = 0;
@@ -25,6 +26,7 @@ namespace Quiz.ViewModels
         private string _feedbackText;
         private string _feedbackIcon;
         private string _feedbackColor;
+        private CancellationTokenSource _cancellationTokenSource;
 
         public string CategoryId
         {
@@ -73,6 +75,16 @@ namespace Quiz.ViewModels
             {
                 _showFeedback = value;
                 OnPropertyChanged(nameof(ShowFeedback));
+            }
+        }
+
+        public bool IsSpeaking
+        {
+            get => _isSpeaking;
+            set
+            {
+                _isSpeaking = value;
+                OnPropertyChanged(nameof(IsSpeaking));
             }
         }
 
@@ -149,12 +161,20 @@ namespace Quiz.ViewModels
         public ICommand StartQuizCommand { get; }
         public ICommand GoBackCommand { get; }
         public ICommand AnswerCommand { get; }
+        public ICommand SpeakQuestionCommand { get; }
+        public ICommand SpeakAnswersCommand { get; }
+        public ICommand SpeakAllCommand { get; }
+        public ICommand StopSpeakingCommand { get; }
 
         public QuizPageViewModel()
         {
             StartQuizCommand = new Command(async () => await StartQuiz());
             GoBackCommand = new Command(async () => await GoBack());
             AnswerCommand = new Command<string>(async (answer) => await ProcessAnswer(answer));
+            SpeakQuestionCommand = new Command(async () => await SpeakQuestion(), () => !IsSpeaking);
+            SpeakAnswersCommand = new Command(async () => await SpeakAnswers(), () => !IsSpeaking);
+            SpeakAllCommand = new Command(async () => await SpeakQuestionAndAnswers(), () => !IsSpeaking);
+            StopSpeakingCommand = new Command(StopSpeaking, () => IsSpeaking);
         }
 
         private async Task StartQuiz()
@@ -245,6 +265,9 @@ namespace Quiz.ViewModels
             if (string.IsNullOrEmpty(selectedAnswer) || CurrentQuestion == null)
                 return;
 
+            // Stop any ongoing speech when answering
+            StopSpeaking();
+
             // Check if answer is correct
             bool isCorrect = selectedAnswer == CurrentQuestion.CorrectAnswer;
 
@@ -278,6 +301,9 @@ namespace Quiz.ViewModels
 
         private async void EndQuiz()
         {
+            // Stop any ongoing speech
+            StopSpeaking();
+
             IsPlaying = false;
 
             // Calculate results
@@ -289,7 +315,166 @@ namespace Quiz.ViewModels
 
         private async Task GoBack()
         {
+            // Stop any ongoing speech
+            StopSpeaking();
             await Shell.Current.GoToAsync("..");
+        }
+
+        // TTS Methods
+        private async Task SpeakQuestion()
+        {
+            if (CurrentQuestion == null || IsSpeaking)
+                return;
+
+            await SpeakText($"Question: {CurrentQuestion.QuestionText}");
+        }
+
+        private async Task SpeakAnswers()
+        {
+            if (CurrentQuestion == null || IsSpeaking)
+                return;
+
+            try
+            {
+                IsSpeaking = true;
+                RefreshCommands();
+
+                _cancellationTokenSource = new CancellationTokenSource();
+
+                // Speak all answer options
+                var options = new[] { CurrentQuestion.Option1, CurrentQuestion.Option2, CurrentQuestion.Option3, CurrentQuestion.Option4 };
+
+                for (int i = 0; i < options.Length; i++)
+                {
+                    if (!string.IsNullOrEmpty(options[i]))
+                    {
+                        await SpeakTextInternal($"Option {i + 1}: {options[i]}", _cancellationTokenSource.Token);
+                        await Task.Delay(300, _cancellationTokenSource.Token);
+                    }
+                }
+            }
+            catch (OperationCanceledException)
+            {
+                // Speech was cancelled, this is normal
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"TTS Error: {ex.Message}");
+            }
+            finally
+            {
+                IsSpeaking = false;
+                RefreshCommands();
+                _cancellationTokenSource?.Dispose();
+                _cancellationTokenSource = null;
+            }
+        }
+
+        private async Task SpeakQuestionAndAnswers()
+        {
+            if (CurrentQuestion == null || IsSpeaking)
+                return;
+
+            try
+            {
+                IsSpeaking = true;
+                RefreshCommands();
+
+                _cancellationTokenSource = new CancellationTokenSource();
+
+                // Speak question
+                await SpeakTextInternal($"Question: {CurrentQuestion.QuestionText}", _cancellationTokenSource.Token);
+
+                // Short pause
+                await Task.Delay(500, _cancellationTokenSource.Token);
+
+                // Speak all answer options
+                var options = new[] { CurrentQuestion.Option1, CurrentQuestion.Option2, CurrentQuestion.Option3, CurrentQuestion.Option4 };
+
+                for (int i = 0; i < options.Length; i++)
+                {
+                    if (!string.IsNullOrEmpty(options[i]))
+                    {
+                        await SpeakTextInternal($"Option {i + 1}: {options[i]}", _cancellationTokenSource.Token);
+                        await Task.Delay(300, _cancellationTokenSource.Token);
+                    }
+                }
+            }
+            catch (OperationCanceledException)
+            {
+                // Speech was cancelled, this is normal
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"TTS Error: {ex.Message}");
+            }
+            finally
+            {
+                IsSpeaking = false;
+                RefreshCommands();
+                _cancellationTokenSource?.Dispose();
+                _cancellationTokenSource = null;
+            }
+        }
+
+        private async Task SpeakText(string text)
+        {
+            if (IsSpeaking)
+                return;
+
+            try
+            {
+                IsSpeaking = true;
+                RefreshCommands();
+
+                _cancellationTokenSource = new CancellationTokenSource();
+                await SpeakTextInternal(text, _cancellationTokenSource.Token);
+            }
+            catch (OperationCanceledException)
+            {
+                // Speech was cancelled, this is normal
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"TTS Error: {ex.Message}");
+            }
+            finally
+            {
+                IsSpeaking = false;
+                RefreshCommands();
+                _cancellationTokenSource?.Dispose();
+                _cancellationTokenSource = null;
+            }
+        }
+
+        private async Task SpeakTextInternal(string text, CancellationToken cancellationToken)
+        {
+            var speechOptions = new SpeechOptions()
+            {
+                Volume = 0.75f,
+                Pitch = 1.0f
+            };
+
+            await TextToSpeech.Default.SpeakAsync(text, speechOptions, cancellationToken);
+        }
+
+        private void StopSpeaking()
+        {
+            if (_cancellationTokenSource != null && !_cancellationTokenSource.Token.IsCancellationRequested)
+            {
+                _cancellationTokenSource.Cancel();
+            }
+
+            IsSpeaking = false;
+            RefreshCommands();
+        }
+
+        private void RefreshCommands()
+        {
+            ((Command)SpeakQuestionCommand).ChangeCanExecute();
+            ((Command)SpeakAnswersCommand).ChangeCanExecute();
+            ((Command)SpeakAllCommand).ChangeCanExecute();
+            ((Command)StopSpeakingCommand).ChangeCanExecute();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

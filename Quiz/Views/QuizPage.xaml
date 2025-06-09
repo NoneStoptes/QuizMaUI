@@ -3,9 +3,16 @@
     x:Class="Quiz.Views.QuizPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:conv="clr-namespace:Quiz.Converters"
     xmlns:vm="clr-namespace:Quiz.ViewModels"
     Title="Quiz"
     BackgroundColor="#181818">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:InverseBoolConverter x:Key="InverseBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <ContentPage.BindingContext>
         <vm:QuizPageViewModel />
@@ -137,14 +144,83 @@
                     CornerRadius="16"
                     VerticalOptions="FillAndExpand">
                     <VerticalStackLayout Spacing="24">
-                        <!--  Question text  -->
-                        <Label
-                            FontAttributes="Bold"
-                            FontSize="20"
-                            HorizontalTextAlignment="Center"
-                            Text="{Binding CurrentQuestion.QuestionText}"
-                            TextColor="#FFFFFF"
-                            VerticalOptions="CenterAndExpand" />
+                        <!--  Question text with TTS controls  -->
+                        <VerticalStackLayout Spacing="16">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="20"
+                                HorizontalTextAlignment="Center"
+                                Text="{Binding CurrentQuestion.QuestionText}"
+                                TextColor="#FFFFFF"
+                                VerticalOptions="CenterAndExpand" />
+
+                            <!--  TTS Controls  -->
+                            <VerticalStackLayout Spacing="12">
+                                <!--  Main TTS Buttons - Row 1  -->
+                                <HorizontalStackLayout HorizontalOptions="Center" Spacing="8">
+                                    <Button
+                                        BackgroundColor="#4CAF50"
+                                        Command="{Binding SpeakQuestionCommand}"
+                                        CornerRadius="8"
+                                        FontSize="12"
+                                        HeightRequest="36"
+                                        IsEnabled="{Binding IsSpeaking, Converter={StaticResource InverseBoolConverter}}"
+                                        Text="🔊 Question"
+                                        TextColor="#FFFFFF"
+                                        WidthRequest="90" />
+
+                                    <Button
+                                        BackgroundColor="#FF9800"
+                                        Command="{Binding SpeakAnswersCommand}"
+                                        CornerRadius="8"
+                                        FontSize="12"
+                                        HeightRequest="36"
+                                        IsEnabled="{Binding IsSpeaking, Converter={StaticResource InverseBoolConverter}}"
+                                        Text="🔊 Answers"
+                                        TextColor="#FFFFFF"
+                                        WidthRequest="90" />
+
+                                    <Button
+                                        BackgroundColor="#2196F3"
+                                        Command="{Binding SpeakAllCommand}"
+                                        CornerRadius="8"
+                                        FontSize="12"
+                                        HeightRequest="36"
+                                        IsEnabled="{Binding IsSpeaking, Converter={StaticResource InverseBoolConverter}}"
+                                        Text="🔊 All"
+                                        TextColor="#FFFFFF"
+                                        WidthRequest="70" />
+
+                                    <Button
+                                        BackgroundColor="#F44336"
+                                        Command="{Binding StopSpeakingCommand}"
+                                        CornerRadius="8"
+                                        FontSize="12"
+                                        HeightRequest="36"
+                                        IsEnabled="{Binding IsSpeaking}"
+                                        Text="⏹️ Stop"
+                                        TextColor="#FFFFFF"
+                                        WidthRequest="70" />
+                                </HorizontalStackLayout>
+
+                                <!--  Speaking Status Indicator  -->
+                                <HorizontalStackLayout
+                                    HorizontalOptions="Center"
+                                    IsVisible="{Binding IsSpeaking}"
+                                    Spacing="8">
+                                    <ActivityIndicator
+                                        HeightRequest="20"
+                                        IsRunning="{Binding IsSpeaking}"
+                                        WidthRequest="20"
+                                        Color="#FF6B6B" />
+                                    <Label
+                                        FontSize="12"
+                                        Text="Speaking..."
+                                        TextColor="#FF6B6B"
+                                        VerticalOptions="Center" />
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
 
                         <!--  Answer options  -->
                         <VerticalStackLayout Spacing="12">
@@ -154,6 +230,7 @@
                                 CommandParameter="{Binding CurrentQuestion.Option1}"
                                 CornerRadius="12"
                                 HeightRequest="56"
+                                IsEnabled="{Binding IsSpeaking, Converter={StaticResource InverseBoolConverter}}"
                                 Text="{Binding CurrentQuestion.Option1}"
                                 TextColor="#FFFFFF" />
 
@@ -163,6 +240,7 @@
                                 CommandParameter="{Binding CurrentQuestion.Option2}"
                                 CornerRadius="12"
                                 HeightRequest="56"
+                                IsEnabled="{Binding IsSpeaking, Converter={StaticResource InverseBoolConverter}}"
                                 Text="{Binding CurrentQuestion.Option2}"
                                 TextColor="#FFFFFF" />
 
@@ -172,6 +250,7 @@
                                 CommandParameter="{Binding CurrentQuestion.Option3}"
                                 CornerRadius="12"
                                 HeightRequest="56"
+                                IsEnabled="{Binding IsSpeaking, Converter={StaticResource InverseBoolConverter}}"
                                 Text="{Binding CurrentQuestion.Option3}"
                                 TextColor="#FFFFFF" />
 
@@ -181,6 +260,7 @@
                                 CommandParameter="{Binding CurrentQuestion.Option4}"
                                 CornerRadius="12"
                                 HeightRequest="56"
+                                IsEnabled="{Binding IsSpeaking, Converter={StaticResource InverseBoolConverter}}"
                                 Text="{Binding CurrentQuestion.Option4}"
                                 TextColor="#FFFFFF" />
                         </VerticalStackLayout>
